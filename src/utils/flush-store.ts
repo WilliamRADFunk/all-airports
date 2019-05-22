@@ -3,8 +3,14 @@ import { store } from "../constants/globalStore";
 export function flushStore() {
 	store.countries = {};
 	store.countriesInList = [];
-	store.countriesNotFound = [];
-	store.failedCountries = [];
-	store.govOffices = {};
-	store.persons = {};
+	store.airlinesNotFound = [];
+	store.airportsNotFound = [];
+	store.airportTable = {};
+	store.failedAirlines = [];
+	store.failedAirports = [];
+
+	store.airports = {};
+	store.airlines = {};
+	store.countries = {};
+	store.locations = {};
 };

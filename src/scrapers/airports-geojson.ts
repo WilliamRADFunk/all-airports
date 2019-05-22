@@ -5,6 +5,7 @@ import { consts } from '../constants/constants';
 import { store } from '../constants/globalStore';
 import { EntityContainer } from '../models/entity-container';
 import { countryToId } from '../utils/country-to-id';
+import { icaoCorrection } from '../utils/create-lookup-table';
 import { entityMaker } from '../utils/entity-maker';
 import { entityRefMaker } from '../utils/entity-ref-maker';
 
@@ -74,8 +75,8 @@ export function getAirportsFromGeoJson() {
 		const countryISO = airportSourceObject && airportSourceObject.iso;
 		// Associate Country
 		if (countryISO) {
-			const countryId = countryToId(countryISO.toLowerCase());
-			store.debugLogger(`---- ${store.countries[countryId]} -----`);
+			const countryId = countryToId(icaoCorrection(countryISO));
+			store.debugLogger(`---- ${icaoCorrection(countryISO)} -- ${store.countries[countryId]} -----`);
 			store.airports[airportId].objectProperties.push(
 				entityRefMaker(
 					consts.ONTOLOGY.HAS_COUNTRY,

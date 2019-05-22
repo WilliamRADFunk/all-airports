@@ -3,7 +3,7 @@
 import { store } from '../constants/globalStore';
 import { loadFile } from './load-file';
 
-export function loadFiles() {
+export function loadFiles(): void {
     const LOG_FILE_NAME = 'logs/log-' + ((new Date()).toISOString()).replace(':', '-').replace(':', '-').replace('.', '-').trim() + '.log';
     // store.LOG_STREAM = Logger.createSimpleFileLogger(LOG_FILE_NAME);
     store.LOG_FILE_NAME = LOG_FILE_NAME;

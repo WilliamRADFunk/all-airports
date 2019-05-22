@@ -22,7 +22,6 @@ export async function getCountries(): Promise<any> {
             store.countriesInList.push(...cNames);
 
             store.countriesInList.forEach(country => {
-                store.debugLogger(`---- ${country.isoCode} -----`);
                 const id: string = countryToId(country.isoCode);
                 store.countries[id] = entityMaker(
                     consts.ONTOLOGY.HAS_COUNTRY,
