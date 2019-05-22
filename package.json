@@ -15,6 +15,7 @@
     "copy:owl": "copyfiles -u 1 ontology/*.rdf dist/ontology/owl/",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
+    "postbuild": "copyfiles -u 1 ontology/*.rdf lib/ontology/owl/",
     "scrape": "ts-node src/index.ts",
     "start": "run-s clean:logs clean:dist scrape copy:ontology",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -64,7 +65,7 @@
     "rimraf": "^2.6.3",
     "simple-node-logger": "^18.12.22",
     "ts-node": "^8.0.3",
-    "typescript": "^3.3.3333",
+    "typescript": "^3.4.5",
     "uuid-by-string": "^2.1.0"
   },
   "devDependencies": {

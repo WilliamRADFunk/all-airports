@@ -9,15 +9,19 @@ class GlobalStore {
 	public LOG_FILE_NAME: string = '';
 	public LOG_STREAM: any = null;
 	public countriesInList: CountryReference[] = [];
-	public countriesNotFound: string[] = [];
 	public debugLogger: any = consoleLog;
 	public errorLogger: any = consoleError;
 	public progressLogger: any = noop;
-	public failedCountries: CountryReference[] = [];
 
+	public airlinesNotFound: string[] = [];
+	public airportsNotFound: string[] = [];
+	public failedAirlines: string[] = [];
+	public failedAirports: string[] = [];
+
+	public airports: EntityListWrapper = {};
+	public airlines: EntityListWrapper = {};
 	public countries: EntityListWrapper = {};
-	public govOffices: EntityListWrapper = {};
-	public persons: EntityListWrapper = {};
+	public locations: EntityListWrapper = {};
 }
 
 export const store = new GlobalStore();

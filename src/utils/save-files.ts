@@ -3,6 +3,6 @@ import { saveFile } from './save-file';
 
 export function saveFiles() {
 	saveFile('countries', 'countries', consts.ONTOLOGY.ONT_COUNTRY);
-	saveFile('government-offices', 'govOffices', consts.ONTOLOGY.MAIN_ONT_PATH);
-	saveFile('persons', 'persons', consts.ONTOLOGY.MAIN_ONT_PATH);
+	saveFile('airports', 'airports', consts.ONTOLOGY.MAIN_ONT_PATH);
+	saveFile('airlines', 'airlines', consts.ONTOLOGY.MAIN_ONT_PATH);
 };

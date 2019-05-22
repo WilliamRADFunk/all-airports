@@ -6,8 +6,8 @@ import { store } from '../constants/globalStore';
 import { countryToId } from './country-to-id';
 import { entityMaker } from './entity-maker';
 
-export function getCountries(): any {
-    return rp('https://www.cia.gov/library/publications/the-world-factbook/')
+export async function getCountries(): Promise<any> {
+    return await rp('https://www.cia.gov/library/publications/the-world-factbook/')
         .then((html: string) => {
             const $ = cheerio.load(html);
             const cNames = $('#search-place option').toArray()

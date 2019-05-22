@@ -1,14 +1,14 @@
-import { store } from './constants/globalStore';
+import { dataScrapers } from './scrapers/data-getters';
 import { getCountries } from './utils/get-countries';
-import { getCountriesData } from './utils/get-countries-data';
 import { loadFiles } from './utils/load-files';
+import { saveFiles } from './utils/save-files';
 
 loadFiles();
 
-Promise.all([getCountries()])
-    .then(() => {
-        getCountriesData();
-    })
-    .catch(err => {
-        store.errorLogger(new Date().toISOString() + '\n\n' + err.toString() + '\n\n');
-    });
+(async () => {
+    await getCountries();
+})();
+
+dataScrapers.getAirportsFromGeoJson();
+
+saveFiles();
