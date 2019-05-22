@@ -1,3 +1,4 @@
+import { AirportSourceObject } from "../models/airport-source-object";
 import { CountryReference } from "../models/country-reference";
 import { EntityListWrapper } from "../models/entity-list-wrapper";
 import { consoleError, consoleLog } from "../utils/logger";
@@ -15,6 +16,7 @@ class GlobalStore {
 
 	public airlinesNotFound: string[] = [];
 	public airportsNotFound: string[] = [];
+	public airportTable: { [key: string]: AirportSourceObject } = {};
 	public failedAirlines: string[] = [];
 	public failedAirports: string[] = [];
 

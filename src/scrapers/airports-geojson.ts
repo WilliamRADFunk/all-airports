@@ -4,10 +4,10 @@ import * as getUuid from 'uuid-by-string';
 import { consts } from '../constants/constants';
 import { store } from '../constants/globalStore';
 import { EntityContainer } from '../models/entity-container';
+import { countryToId } from '../utils/country-to-id';
 import { entityMaker } from '../utils/entity-maker';
 import { entityRefMaker } from '../utils/entity-ref-maker';
 
-import * as airportDataNpm from '../assets/airports-npm.json';
 import * as airportDataLocal from '../assets/airports-source.json';
 
 export function getAirportsFromGeoJson() {
@@ -19,7 +19,7 @@ export function getAirportsFromGeoJson() {
 		store.debugLogger(`Airport, ${airportProps.name}, ${airportProps.gps_code}`);
 		store.debugLogger(`Airport Location, ${airportLocation[1]}, ${airportLocation[0]}`);
 
-		// Fetch or create office entity
+		// Fetch or create airport entity
 		const airportId = consts.ONTOLOGY.INST_AIRPORT + getUuid(airportProps.gps_code || '');
 		store.debugLogger(`Airport ID, ${airportId}`);
 
@@ -70,15 +70,19 @@ export function getAirportsFromGeoJson() {
 			locAttr.datatypeProperties = datatypeProp;
 		}
 
-		const countryISOs = airportDataNpm;
-
+		const airportSourceObject = store.airportTable[airportProps.iata_code || ''];
+		const countryISO = airportSourceObject && airportSourceObject.iso;
 		// Associate Country
-		// store.airports[airportId].objectProperties.push(
-		// 	entityRefMaker(
-		// 		consts.ONTOLOGY.HAS_COUNTRY,
-		// 		store.countries,
-		// 		countryId
-		// ));
-		// store.countries[countryId].objectProperties.push(entityRefMaker(consts.ONTOLOGY.HAS_AIRPORT, airportObjectProp));
+		if (countryISO) {
+			const countryId = countryToId(countryISO.toLowerCase());
+			store.debugLogger(`---- ${store.countries[countryId]} -----`);
+			store.airports[airportId].objectProperties.push(
+				entityRefMaker(
+					consts.ONTOLOGY.HAS_COUNTRY,
+					store.countries,
+					countryId
+			));
+			store.countries[countryId].objectProperties.push(entityRefMaker(consts.ONTOLOGY.HAS_AIRPORT, airportObjectProp));
+		}
 	})
 };
