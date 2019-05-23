@@ -14,11 +14,8 @@ export { FlatEntity } from './models/flat-entity';
 
 // Utility Functions
 export { flushStore } from './utils/flush-store';
-export { getCountryURL } from './utils/get-country-url';
 export { loadFiles } from './utils/load-files';
 export { saveFiles } from './utils/save-files';
 
 // Data Scrape Functions
-export { getCountriesData } from './utils/get-countries-data';
-export { getCountryData } from './utils/get-country-data';
 export { getCountries } from './utils/get-countries';
