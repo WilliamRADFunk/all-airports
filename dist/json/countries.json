@@ -3,6 +3,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/d1e62250-7595-3a6e-a06d-b24b1debf110",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "af",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "af"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Afghanistan",
@@ -22,6 +23,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/2a2e1206-b422-3b0d-bcc8-c8a1d8b302ee",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ax",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ax"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Akrotiri",
@@ -31,6 +33,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/2f9ee2b3-3668-3212-8b44-5da6f3a0a52c",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "al",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "al"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Albania",
@@ -50,7 +53,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/7edd1dd2-32a6-3b14-b151-d657b4ad5080",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ag"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ag",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "dz"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Algeria",
     "objectProperties": [
@@ -87,7 +91,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/b3a7c645-3067-36ef-8965-c7be7e859ec0",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "aq"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "aq",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "as"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "American Samoa",
     "objectProperties": [
@@ -106,7 +111,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/de73eac0-c305-338f-8437-bc6a1f994a5a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "an"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "an",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ad"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Andorra",
     "objectProperties": [
@@ -134,6 +140,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/c29dd6c8-3b67-33d6-93b2-8588a1f068b6",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ao",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ao"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Angola",
@@ -162,7 +169,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/8ccb8a3f-7ac5-3f9c-8f1a-b74cb453f7f3",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "av"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "av",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ai"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Anguilla",
     "objectProperties": [    ]
@@ -171,7 +179,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f9407667-de63-33aa-ac42-fd6f57e39d79",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ay"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ay",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "aq"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Antarctica",
     "objectProperties": [    ]
@@ -180,7 +189,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/0c11d463-c749-3b58-b8e2-c0e489bf869d",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ac"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ac",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ag"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Antigua and Barbuda",
     "objectProperties": [
@@ -199,6 +209,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/59214ce8-3919-3631-b4c2-1d9526aa96fe",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "xq",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "xq"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Arctic Ocean",
@@ -208,6 +219,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/23d8e015-6062-365c-a373-6e9f1e364d41",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ar",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ar"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Argentina",
@@ -335,6 +347,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/96e81557-32e8-324a-a26f-64d4516eb6fe",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "am",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "am"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Armenia",
@@ -354,7 +367,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/e0c90358-98dd-32fc-a5c4-1454cec9c4d2",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "aa"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "aa",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "aw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Aruba",
     "objectProperties": [
@@ -373,6 +387,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/27e90dfa-57c3-3aac-baf4-70860f6f72c9",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "at",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "at"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Ashmore and Cartier Islands",
@@ -382,6 +397,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/68a5d7a1-79f2-3b04-bcf5-88c7cf817eab",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "zh",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "zh"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Atlantic Ocean",
@@ -391,7 +407,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/df211ccd-d94a-33e0-bcb9-e6ae427a2494",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "as"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "as",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "au"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Australia",
     "objectProperties": [
@@ -554,7 +571,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f095160c-09b3-36f6-a7cf-905fc1b6024f",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "au"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "au",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "at"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Austria",
     "objectProperties": [
@@ -573,7 +591,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/2048b22a-c088-3f91-baf3-e938105055ab",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "aj"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "aj",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "az"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Azerbaijan",
     "objectProperties": [
@@ -592,7 +611,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/dba89299-7598-3756-8196-c03cf0aaf992",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bf"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bf",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bs"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Bahamas, The",
     "objectProperties": [
@@ -629,7 +649,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/6c0596b8-ac60-3391-981a-90517d51c0b4",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ba"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ba",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bh"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Bahrain",
     "objectProperties": [
@@ -648,6 +669,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/ec92b743-0684-3240-8816-9de533bae20f",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "um",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "um"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "United States Pacific Island Wildlife Refuges",
@@ -657,7 +679,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/80f87c88-47da-3e87-ace2-fc9fec0a98a7",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bg"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bg",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bd"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Bangladesh",
     "objectProperties": [
@@ -694,6 +717,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/9a900f53-8965-3626-994e-1e90600920af",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bb",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bb"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Barbados",
@@ -713,7 +737,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/dc45fe02-3482-33b8-90b5-e574e53c1d05",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bo"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bo",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "by"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Belarus",
     "objectProperties": [
@@ -732,6 +757,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/986b1bc1-eb8d-3a96-83c5-0722910f9900",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "be",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "be"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Belgium",
@@ -769,7 +795,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/6de8967f-3f33-3ee7-afb2-858eaa856fcd",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bh"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bh",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bz"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Belize",
     "objectProperties": [
@@ -788,7 +815,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/19f38987-eafa-3f20-a236-297a8de89ebf",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bn"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bn",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bj"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Benin",
     "objectProperties": [
@@ -807,7 +835,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/e3f284ca-e209-3a55-9dba-f92f45b91ea8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bd"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bd",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Bermuda",
     "objectProperties": [
@@ -826,6 +855,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/edfb92a5-be2a-33a4-bd11-7f6c1530e1ce",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bt",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bt"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Bhutan",
@@ -835,7 +865,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f55fb781-60b9-3a53-a8e1-29ce16f85548",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bl"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bl",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bo"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Bolivia",
     "objectProperties": [
@@ -872,7 +903,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/b86f6db2-84d3-3618-8d56-1d46b45b188d",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bk"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bk",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ba"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Bosnia and Herzegovina",
     "objectProperties": [
@@ -891,7 +923,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5b250503-9ac5-3f9e-997f-5dad04113906",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bc"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bc",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Botswana",
     "objectProperties": [
@@ -910,6 +943,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1fd5892d-e370-3a47-8dc1-83f23de8aff6",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bv",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bv"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Bouvet Island",
@@ -919,6 +953,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3eb65786-145e-3b71-a9dc-bb3a09f06a0b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "br",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "br"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Brazil",
@@ -1217,6 +1252,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5a258230-180d-3e64-bf76-1089d7e33b8b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "io",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "io"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "British Indian Ocean Territory",
@@ -1226,7 +1262,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/833da188-871d-3e4c-89e0-8271ff3deff5",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "vi"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "vi",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "vg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "British Virgin Islands",
     "objectProperties": [
@@ -1245,7 +1282,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1f7e33de-15e2-3fe9-92ea-f502df284ed2",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bx"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bx",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Brunei",
     "objectProperties": [
@@ -1264,7 +1302,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/6721d9fb-11ca-330b-9287-49d7e4f9e8c5",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bu"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bu",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Bulgaria",
     "objectProperties": [
@@ -1292,7 +1331,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/ad5dd33d-fa81-3b15-9718-2f453879cc05",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "uv"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "uv",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bf"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Burkina Faso",
     "objectProperties": [
@@ -1311,7 +1351,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/a67acd6e-68f8-32b8-87a1-c9afe3a24535",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bm"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bm",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Burma",
     "objectProperties": [
@@ -1339,7 +1380,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/40815864-3ed5-36c7-afa0-921826f8294d",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "by"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "by",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bi"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Burundi",
     "objectProperties": [
@@ -1358,6 +1400,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/164c4a27-d71c-3613-8780-d4cd2d452b4e",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cv",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cv"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Cabo Verde",
@@ -1386,7 +1429,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/85d56cb4-1a65-361d-8ea3-6d0ceb2f0ec4",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cb"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cb",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kh"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Cambodia",
     "objectProperties": [
@@ -1414,6 +1458,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/e283e1df-945b-3ef5-a009-169e7d9f4115",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cm",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Cameroon",
@@ -1442,6 +1487,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1c42c72c-f95a-33b7-a609-b585b34baf6b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ca",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ca"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Canada",
@@ -1875,7 +1921,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/82a36422-d455-3332-87e7-6b728a8ed41c",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cj"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cj",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ky"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Cayman Islands",
     "objectProperties": [
@@ -1903,7 +1950,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/589e942e-00a7-3f64-a273-deb5041c7ce4",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ct"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ct",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cf"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Central African Republic",
     "objectProperties": [
@@ -1922,7 +1970,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/03477819-8a04-3e1e-980b-e271cdd029b7",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cd"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cd",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "td"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Chad",
     "objectProperties": [
@@ -1941,7 +1990,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5a4fe083-59c7-3b73-80e4-08c717ef42c8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ci"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ci",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cl"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Chile",
     "objectProperties": [
@@ -2032,7 +2082,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/482bd64c-6c9f-3b8c-9ef8-b77b8f870517",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ch"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ch",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "China",
     "objectProperties": [
@@ -2384,7 +2435,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3553b226-127e-3ecc-92be-c8c74a70f7d1",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kt"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "kt",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cx"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Christmas Island",
     "objectProperties": [    ]
@@ -2393,6 +2445,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f9aba3f1-299b-3a48-a75e-e40ef3baf522",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ip",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ip"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Clipperton Island",
@@ -2402,7 +2455,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/c8c2ca9f-ed1a-3e34-9d7d-bc1b7d985364",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ck"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ck",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cc"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Cocos (Keeling) Islands",
     "objectProperties": [
@@ -2421,6 +2475,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/87dda204-1664-3f2a-aa1b-03d4e13d48a8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "co",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "co"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Colombia",
@@ -2494,7 +2549,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/b0bc9abd-90e2-37b3-bfd6-95191e2d0034",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cn"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cn",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "km"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Comoros",
     "objectProperties": [
@@ -2513,7 +2569,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/bb0b6647-e93b-3fb3-993e-649f301d6c4b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cg"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cg",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cd"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Congo, Democratic Republic of the",
     "objectProperties": [
@@ -2577,7 +2634,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f78b64c9-e0f2-3a24-bddc-e2b0d809cb28",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cf"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cf",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Congo, Republic of the",
     "objectProperties": [    ]
@@ -2586,7 +2644,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/8e425ff7-9c7c-3b42-a6f1-a4093c553d06",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cw"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cw",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ck"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Cook Islands",
     "objectProperties": [
@@ -2605,6 +2664,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/ccd8c159-3808-3ea5-af85-64415122ab00",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cr",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Coral Sea Islands",
@@ -2614,7 +2674,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/67f99453-3a5d-376e-ad69-aeae05e381bf",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cs"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cs",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Costa Rica",
     "objectProperties": [
@@ -2633,7 +2694,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/2b946dda-e90d-370f-9533-75cbadede63e",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "iv"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "iv",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ci"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Cote d'Ivoire",
     "objectProperties": [
@@ -2661,6 +2723,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/51bd9535-3aed-3661-9433-bea21896c893",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "hr",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "hr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Croatia",
@@ -2680,6 +2743,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/93c30b1a-3b78-36ce-bc99-ed3bfa279e7a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cu",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cu"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Cuba",
@@ -2726,7 +2790,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3519ace8-8aff-33d0-bcd9-84e15dfaf7b1",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "uc"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "uc",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Curacao",
     "objectProperties": [    ]
@@ -2735,6 +2800,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/31ace4ad-1831-3ae8-a6cd-7951a842ca3e",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cy",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cy"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Cyprus",
@@ -2754,7 +2820,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/4aca359f-a1b7-3e51-bc82-26c4f161d16f",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ez"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ez",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cz"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Czechia",
     "objectProperties": [
@@ -2773,7 +2840,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/cdd4f874-0950-37f4-ae66-70038cbbd05f",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "da"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "da",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "dk"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Denmark",
     "objectProperties": [
@@ -2792,6 +2860,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/4a2b94f8-a97a-3776-8cdd-d2707413b9ed",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "dx",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "dx"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Dhekelia",
@@ -2801,6 +2870,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/10099878-e72c-37e0-ae4a-a0cbce77aa8d",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "dj",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "dj"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Djibouti",
@@ -2820,7 +2890,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/eadcd9bd-2a09-375a-af04-954e6799e502",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "do"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "do",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "dm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Dominica",
     "objectProperties": [    ]
@@ -2829,7 +2900,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/05c77e49-f6a3-3ba5-b2d7-2739ecf59dfa",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "dr"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "dr",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "do"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Dominican Republic",
     "objectProperties": [
@@ -2866,6 +2938,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/7dd84750-ee85-3311-acd2-b06f62f56f47",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ec",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ec"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Ecuador",
@@ -2903,6 +2976,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3a1c21a5-59ed-32d6-8e17-c0b8205b6bda",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "eg",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "eg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Egypt",
@@ -2985,7 +3059,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/09cd68a2-a77b-32a3-92dd-ed612dd0d998",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "es"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "es",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sv"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "El Salvador",
     "objectProperties": [
@@ -3004,7 +3079,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/cbed8816-4a31-3e0a-b942-650afc8c7073",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ek"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ek",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gq"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Equatorial Guinea",
     "objectProperties": [    ]
@@ -3013,6 +3089,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/602c57ff-b51a-3b9d-af3b-54c0ee9587bb",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "er",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "er"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Eritrea",
@@ -3032,7 +3109,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/094b0fe0-e302-374a-b131-1afab85b5203",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "en"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "en",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ee"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Estonia",
     "objectProperties": [
@@ -3051,7 +3129,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/d564899b-9045-365f-b328-26707d0c8358",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "wz"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "wz",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sz"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Eswatini",
     "objectProperties": [    ]
@@ -3060,6 +3139,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/a5bc1d9b-2ae7-3e7a-8a24-9659c13b14f5",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "et",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "et"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Ethiopia",
@@ -3088,6 +3168,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/cacdf082-3fa0-3658-8422-37b801fd60d5",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "fk",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "fk"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Falkland Islands (Islas Malvinas)",
@@ -3097,6 +3178,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/19082866-d46a-3a57-bfef-fe585d8362c1",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "fo",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "fo"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Faroe Islands",
@@ -3116,6 +3198,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/0beff6db-e500-33c2-8bb0-581cd0bf3c0d",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "fj",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "fj"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Fiji",
@@ -3144,6 +3227,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/6b163fa3-bad4-3a62-874a-fcb81fb9f27b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "fi",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "fi"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Finland",
@@ -3190,6 +3274,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/b858a87c-07b0-3e45-a8f5-1b0dce655f78",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "fr",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "fr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "France",
@@ -3326,7 +3411,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1e3f4fd4-2cd5-373a-963d-7170b5aa6bc1",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "fp"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "fp",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pf"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "French Polynesia",
     "objectProperties": [
@@ -3345,7 +3431,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3f4bb586-f04a-3e1d-93ea-dab9363a8a31",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "fs"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "fs",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tf"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "French Southern and Antarctic Lands",
     "objectProperties": [    ]
@@ -3354,7 +3441,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/61fc7bcf-04ff-366c-ac10-c8334fa83244",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gb"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gb",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ga"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Gabon",
     "objectProperties": [
@@ -3373,7 +3461,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/72b6ef47-4440-3747-8470-1b2768de8799",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ga"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ga",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Gambia, The",
     "objectProperties": [
@@ -3392,7 +3481,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/aea32980-d37c-3eb3-8dfb-428352a7e2e6",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gz"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gz",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ps"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Gaza Strip",
     "objectProperties": [    ]
@@ -3401,7 +3491,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f3226f91-f77a-37d9-89b8-920adc91f9a3",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gg"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gg",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ge"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Georgia",
     "objectProperties": [
@@ -3420,7 +3511,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/d2d359e4-ae58-3ada-8367-81910ecc7abb",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gm"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gm",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "de"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Germany",
     "objectProperties": [
@@ -3520,6 +3612,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1041179c-bdda-366f-97b0-347f09255f77",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gh",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gh"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Ghana",
@@ -3548,6 +3641,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/fc7794c8-c4e6-375e-bb15-67b6f6bfaeb9",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gi",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gi"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Gibraltar",
@@ -3567,6 +3661,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/de061098-90d2-3a13-8f72-4246c64e1c55",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gr",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Greece",
@@ -3613,6 +3708,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5644a3f6-d24d-3f48-9c43-00bdf0bee118",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gl",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gl"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Greenland",
@@ -3641,7 +3737,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1f2be4f0-cbde-3b4e-abe2-ce8944b3b6bd",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gj"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gj",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gd"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Grenada",
     "objectProperties": [
@@ -3660,7 +3757,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/4cbc5070-4f06-36e6-8299-8fd181ef080c",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gq"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gq",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gu"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Guam",
     "objectProperties": [
@@ -3679,6 +3777,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/7ddf988c-8388-32a4-b183-32f2967bbe10",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gt",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gt"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Guatemala",
@@ -3707,7 +3806,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/2cbe9db2-5f31-3e69-881f-80a2cedbe7b0",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gk"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gk",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Guernsey",
     "objectProperties": [    ]
@@ -3716,7 +3816,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/8cd47063-20fd-33cb-95d0-32b81bafcd79",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gv"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gv",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Guinea",
     "objectProperties": [
@@ -3735,7 +3836,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f03aa350-a4cc-3288-8bd8-fd3a23975ca0",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pu"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pu",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Guinea-Bissau",
     "objectProperties": [
@@ -3754,6 +3856,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1fd642f1-bc12-3a76-9b41-3f480856eecb",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "gy",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gy"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Guyana",
@@ -3773,7 +3876,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f9fc27b9-374a-33e3-bf34-fdbcec3a4fd6",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ha"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ha",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ht"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Haiti",
     "objectProperties": [
@@ -3792,6 +3896,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/4ffa4b4f-1653-3b6c-99c2-14ad709217c8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "hm",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "hm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Heard Island and McDonald Islands",
@@ -3801,7 +3906,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/0d216168-d6c4-3a34-90e4-fa17a56d762f",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "vt"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "vt",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "va"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Holy See (Vatican City)",
     "objectProperties": [    ]
@@ -3810,7 +3916,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/9a76a857-ad39-3b49-aba0-1879d0fa2d71",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ho"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ho",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "hn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Honduras",
     "objectProperties": [
@@ -3847,6 +3954,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/4fe0d242-31b6-329c-90a7-8eeb8dc6ff2c",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "hk",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "hk"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Hong Kong",
@@ -3866,6 +3974,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/06b08b32-5631-36c5-989d-83b119a25c21",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "hu",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "hu"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Hungary",
@@ -3885,7 +3994,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/8c3c21f4-1efe-3f73-a096-d7485d091256",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ic"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ic",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "is"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Iceland",
     "objectProperties": [
@@ -3904,6 +4014,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/af10ef20-dd90-32bb-aead-0afbc55381a6",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "in",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "in"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "India",
@@ -4337,6 +4448,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/e88b9d37-b081-3ab4-9354-fd85a3c4e095",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "xo",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "xo"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Indian Ocean",
@@ -4346,6 +4458,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/87ea5dfc-8b8e-3a4d-8489-79496e706390",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "id",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "id"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Indonesia",
@@ -4464,6 +4577,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/aa1553be-ed5d-3373-9357-b4addbc617b9",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ir",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ir"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Iran",
@@ -4555,7 +4669,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/e18a4e93-1495-3afc-961a-cad1da3d670b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "iz"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "iz",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "iq"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Iraq",
     "objectProperties": [
@@ -4592,7 +4707,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/ceb03c09-16dd-3ef3-96bc-22e6061ad445",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ei"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ei",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ie"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Ireland",
     "objectProperties": [
@@ -4629,6 +4745,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/42a0d306-8dfe-3b45-9084-813fd66eb697",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "im",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "im"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Isle of Man",
@@ -4638,7 +4755,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/b47f363e-2b43-3e06-87f1-4deea3eced9b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "is"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "is",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "il"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Israel",
     "objectProperties": [
@@ -4657,6 +4775,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/6c5522ca-8af8-3fc5-869b-737bb8892b3e",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "it",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "it"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Italy",
@@ -4766,6 +4885,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/112f489f-6b26-3edf-8e48-92f7b952cd36",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "jm",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "jm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Jamaica",
@@ -4794,6 +4914,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3612ab7d-0269-332b-b636-24fd173d2412",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "jn",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "jn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Jan Mayen",
@@ -4803,7 +4924,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/84572ef2-253e-3a1e-ad8c-d8c65849f4d9",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ja"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ja",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "jp"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Japan",
     "objectProperties": [
@@ -4894,6 +5016,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/68d2ad23-b5e1-3227-97ff-78d3d0d55d97",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "je",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "je"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Jersey",
@@ -4903,6 +5026,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/bd73d357-59d7-3ec2-9515-0d1bbc94f1b1",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "jo",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "jo"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Jordan",
@@ -4931,6 +5055,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/efb215f8-f795-36f9-903c-2254db6f4fe9",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "kz",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kz"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Kazakhstan",
@@ -4968,6 +5093,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/15d5e1d3-b948-3f59-86aa-ff7d9419b5e5",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ke",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ke"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Kenya",
@@ -5005,7 +5131,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/faf8d203-b3f9-32d1-aba5-401fbf4222db",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kr"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "kr",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ki"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Kiribati",
     "objectProperties": [
@@ -5033,7 +5160,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5c0795f5-09d6-360c-8f41-a5c940d5204a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kn"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "kn",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kp"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Korea, North",
     "objectProperties": [
@@ -5052,7 +5180,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/10133f79-7b03-3755-8879-e38c5283ac90",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ks"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ks",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Korea, South",
     "objectProperties": [
@@ -5152,7 +5281,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/88f2baed-fb0a-32b4-9fcc-fc4b3c3fe259",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kv"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "kv",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "xk"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Kosovo",
     "objectProperties": [    ]
@@ -5161,7 +5291,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/78fa1053-807e-32ee-84a5-99b391834556",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ku"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ku",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Kuwait",
     "objectProperties": [
@@ -5180,6 +5311,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1389845b-02c0-3bff-94ea-a5fc2e561554",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "kg",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Kyrgyzstan",
@@ -5199,6 +5331,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3efd4c0f-e185-335d-92c5-84b9698f5068",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "la",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "la"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Laos",
@@ -5218,7 +5351,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f0a1ce6f-8011-3f72-b727-6457fd261d67",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lg"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "lg",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lv"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Latvia",
     "objectProperties": [
@@ -5237,7 +5371,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/593b743b-207e-32ff-95ec-63e71a46c079",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "le"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "le",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lb"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Lebanon",
     "objectProperties": [
@@ -5256,7 +5391,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5f3acfbe-b4f6-3a50-87dd-1137ab1e9614",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lt"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "lt",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ls"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Lesotho",
     "objectProperties": [
@@ -5275,7 +5411,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/41db30f8-0221-37ed-a8b2-6c86ad29aaaf",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "li"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "li",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Liberia",
     "objectProperties": [
@@ -5294,6 +5431,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/ec594490-17e5-3632-862c-3e3ce7c5ebb7",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ly",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ly"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Libya",
@@ -5322,7 +5460,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/ebfdec64-1529-36b5-9a54-e18f8b0e9730",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ls"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ls",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "li"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Liechtenstein",
     "objectProperties": [    ]
@@ -5331,7 +5470,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/9808e069-e914-37c2-8418-70851647ea0d",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lh"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "lh",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lt"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Lithuania",
     "objectProperties": [
@@ -5368,6 +5508,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3f76228c-99e5-364d-aa5a-96b2b14547e5",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "lu",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lu"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Luxembourg",
@@ -5387,7 +5528,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/dcab2065-d594-3753-abbc-e07c9af6c778",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mc"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mc",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mo"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Macau",
     "objectProperties": [
@@ -5406,7 +5548,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1382244e-1784-3e14-8fb7-8b24983c206e",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ma"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ma",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Madagascar",
     "objectProperties": [
@@ -5425,7 +5568,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/9c51ad86-60ea-3e45-b796-5cd83d1f447c",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mi"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mi",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Malawi",
     "objectProperties": [
@@ -5453,6 +5597,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3ece1471-f44f-3317-bcbc-35ba0b904e0c",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "my",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "my"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Malaysia",
@@ -5499,6 +5644,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/362d60cb-3f6f-3e96-837e-dac670b76189",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mv",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mv"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Maldives",
@@ -5518,6 +5664,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/b331fc67-af2f-3f62-a16d-c7677e33fa9a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ml",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ml"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Mali",
@@ -5537,6 +5684,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/0658929a-32fc-3f20-9df0-89c884250dd4",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mt",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mt"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Malta",
@@ -5556,7 +5704,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5cd7e29c-8817-3aa3-b162-81e0dbf5772c",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "rm"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "rm",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mh"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Marshall Islands",
     "objectProperties": [
@@ -5575,6 +5724,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/8e7be411-ad89-3fe9-bd14-4531f3925d0b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mr",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Mauritania",
@@ -5612,7 +5762,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/91f6e575-920d-3f50-bd85-97338fd1637d",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mp"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mp",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mu"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Mauritius",
     "objectProperties": [
@@ -5631,6 +5782,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3ab846d5-0e49-3efc-b276-3de7d742d06f",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mx",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mx"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Mexico",
@@ -6001,6 +6153,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/adeb6f2a-18fe-33af-b68d-91b09587b68e",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "fm",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "fm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Micronesia, Federated States of",
@@ -6047,6 +6200,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/240c4df7-2502-37ef-916e-bedf6de99c5a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "md",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "md"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Moldova",
@@ -6066,7 +6220,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/78dc0cd3-e7ef-375d-ac3e-664078e5f1d7",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mn"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mn",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mc"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Monaco",
     "objectProperties": [    ]
@@ -6075,7 +6230,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/191be371-5bae-370c-a198-402843567588",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mg"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mg",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Mongolia",
     "objectProperties": [
@@ -6094,7 +6250,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/df2fa7c3-9d14-3fc5-9c55-89fed74180e7",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mj"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mj",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "me"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Montenegro",
     "objectProperties": [
@@ -6113,7 +6270,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/99044191-3301-3298-9909-73ad253a390a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mh"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mh",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ms"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Montserrat",
     "objectProperties": [    ]
@@ -6122,7 +6280,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/6adbae8c-894e-3e14-931a-69b021d6fca6",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mo"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mo",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ma"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Morocco",
     "objectProperties": [
@@ -6186,6 +6345,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/e688cf74-14fb-321c-8495-010d43a4eaaa",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mz",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mz"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Mozambique",
@@ -6205,7 +6365,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1ebda951-b204-3b40-b68d-ec3d8c16abff",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "wa"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "wa",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "na"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Namibia",
     "objectProperties": [
@@ -6224,6 +6385,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/a8643e0e-26d5-3ad8-ae73-aae64966ca14",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "nr",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "nr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Nauru",
@@ -6243,6 +6405,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/85250a8f-3333-3a06-afdb-72cd05635f9c",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bq",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bq"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Navassa Island",
@@ -6252,6 +6415,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/003fffd5-649f-327c-8fc0-d15a402a4fe5",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "np",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "np"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Nepal",
@@ -6271,6 +6435,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/595477bd-43c3-36b6-a363-f3cbda218df8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "nl",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "nl"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Netherlands",
@@ -6299,6 +6464,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/e0422724-9fdf-3f11-a53d-2eef9789589a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "nc",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "nc"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "New Caledonia",
@@ -6318,6 +6484,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5cea5a51-7641-32be-b308-2c7d478f389b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "nz",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "nz"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "New Zealand",
@@ -6382,7 +6549,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/539e0278-337f-339b-80d8-f087446c228b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "nu"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "nu",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ni"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Nicaragua",
     "objectProperties": [
@@ -6401,7 +6569,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/7d65c4e2-4b8e-3736-acf9-a6614b49d597",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ng"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ng",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ne"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Niger",
     "objectProperties": [
@@ -6420,7 +6589,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/c5f2aaa8-1dbf-33ba-9ee5-3232d57357d8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ni"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ni",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ng"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Nigeria",
     "objectProperties": [
@@ -6529,7 +6699,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f60d2a2f-7993-3782-9671-faef6f38d5d8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ne"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ne",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "nu"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Niue",
     "objectProperties": [
@@ -6548,6 +6719,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/0cdd8b5e-33da-365c-a26a-4862d5e713aa",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "nf",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "nf"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Norfolk Island",
@@ -6567,6 +6739,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/a91dcbb4-df49-3abf-a0a9-930d7ff911a4",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mk",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mk"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "North Macedonia",
@@ -6586,7 +6759,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/018d644a-17b7-3b65-8ef5-1fa0a523a293",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "cq"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "cq",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mp"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Northern Mariana Islands",
     "objectProperties": [
@@ -6614,6 +6788,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/fd128635-3570-3770-b799-ba76999323b7",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "no",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "no"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Norway",
@@ -6687,7 +6862,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1247e024-fd6d-363a-be2c-db7eafe74907",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mu"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "mu",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "om"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Oman",
     "objectProperties": [
@@ -6706,6 +6882,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/680512d7-d631-369e-ae73-21ef173eb246",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "zn",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "zn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Pacific Ocean",
@@ -6715,6 +6892,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/6924110c-de4f-3251-bfdc-600a60620dc7",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pk",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pk"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Pakistan",
@@ -6797,7 +6975,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/c67f1ee1-7880-330c-a118-21dcc9be7af9",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ps"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ps",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Palau",
     "objectProperties": [
@@ -6816,7 +6995,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/c4dcbb4b-94a4-3394-8086-03eb9e1f5c8f",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pm"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pm",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pa"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Panama",
     "objectProperties": [
@@ -6844,7 +7024,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/6d3236ec-3c88-339c-a534-b81acad564e8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pp"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pp",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Papua New Guinea",
     "objectProperties": [
@@ -6872,6 +7053,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/586de3e9-3052-37c7-9a7b-16d12f22f3ea",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pf",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pf"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Paracel Islands",
@@ -6881,7 +7063,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/379fc0d5-299a-33ac-8f17-1fbb5afb2628",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pa"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pa",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "py"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Paraguay",
     "objectProperties": [
@@ -6909,6 +7092,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1db828bc-d41d-3753-b7dc-e59825af73ae",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pe",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pe"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Peru",
@@ -6946,7 +7130,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5eec8e1c-aba2-3aaf-9cb3-ba60cf956c4f",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "rp"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "rp",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ph"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Philippines",
     "objectProperties": [
@@ -7010,7 +7195,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/793d6d7c-60bd-3329-96f9-1fdb8c1b53aa",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pc"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pc",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Pitcairn Islands",
     "objectProperties": [    ]
@@ -7019,6 +7205,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f437cb07-8acc-3e6d-b987-3462334a355e",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pl",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pl"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Poland",
@@ -7065,7 +7252,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/13a5d513-91f6-36ff-9a94-394b0dee6a35",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "po"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "po",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pt"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Portugal",
     "objectProperties": [
@@ -7111,7 +7299,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/4f0e03cb-8f76-364d-9083-ec2d408293a4",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "rq"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "rq",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Puerto Rico",
     "objectProperties": [
@@ -7130,6 +7319,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/d3c58341-2a36-333a-b5e2-4293924c39a3",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "qa",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "qa"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Qatar",
@@ -7149,6 +7339,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/eed1903a-65fb-3337-9c9a-57c0d5925ebe",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ro",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ro"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Romania",
@@ -7177,7 +7368,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/03aae0c3-69f2-3afd-b844-d820bf41b1de",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "rs"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "rs",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ru"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Russia",
     "objectProperties": [
@@ -7376,6 +7568,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/35d495b4-1aa4-3f51-8ffc-bb60365085b8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "rw",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "rw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Rwanda",
@@ -7395,7 +7588,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/fbce2c36-4a46-36c8-962d-fc1f0473ca82",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tb"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tb",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bl"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Saint Barthelemy",
     "objectProperties": [    ]
@@ -7404,6 +7598,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/16795633-e2c1-3630-a4a3-ad70ac3ba71d",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sh",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sh"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Saint Helena, Ascension, and Tristan da Cunha",
@@ -7413,7 +7608,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/04096ad9-c896-3aa1-814d-9c435db136c2",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sc"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sc",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "kn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Saint Kitts and Nevis",
     "objectProperties": [
@@ -7432,7 +7628,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/9b02d997-4c14-3623-89ff-bed7360beacb",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "st"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "st",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lc"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Saint Lucia",
     "objectProperties": [
@@ -7451,7 +7648,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/bc755ac4-5a0e-3b9d-9d49-0cba76febc56",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "rn"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "rn",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "mf"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Saint Martin",
     "objectProperties": [    ]
@@ -7460,7 +7658,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/b70482a9-c35b-3366-b901-9cd8b2ecb03a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sb"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sb",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Saint Pierre and Miquelon",
     "objectProperties": [    ]
@@ -7469,6 +7668,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/7d956a61-04bb-33ca-9c78-fe7ac803d077",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "vc",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "vc"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Saint Vincent and the Grenadines",
@@ -7478,6 +7678,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1457b75d-c8c5-320c-8f1d-4503cf801b60",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ws",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ws"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Samoa",
@@ -7497,6 +7698,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3e76c243-56d3-3b63-b982-c828d9ab9b21",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sm",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "San Marino",
@@ -7506,7 +7708,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/903a0bf6-58ba-3aa8-9463-ba893c88ae9c",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tp"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tp",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "st"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Sao Tome and Principe",
     "objectProperties": [
@@ -7525,6 +7728,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3608a6d1-a05a-3a23-aa39-0e5f3b48203d",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sa",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sa"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Saudi Arabia",
@@ -7571,7 +7775,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/ff397964-87e8-3a70-a6e1-8d814bcb6385",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sg"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sg",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Senegal",
     "objectProperties": [
@@ -7590,7 +7795,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/26801333-1b64-3a4d-9537-1ebd0f7340aa",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ri"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ri",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "rs"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Serbia",
     "objectProperties": [
@@ -7609,7 +7815,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/00762ccf-a703-3b3e-8daf-f813a6ecc19f",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "se"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "se",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sc"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Seychelles",
     "objectProperties": [
@@ -7628,6 +7835,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/2b002dcf-5eba-3365-9031-276a8f5e55d9",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sl",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sl"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Sierra Leone",
@@ -7647,7 +7855,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/c3ecef83-d068-3367-9fb9-1c6cb0d49869",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sn"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sn",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Singapore",
     "objectProperties": [
@@ -7666,7 +7875,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/07962e32-beac-3fa1-b9b3-0c06f1c1e71b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "nn"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "nn",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sx"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Sint Maarten",
     "objectProperties": [    ]
@@ -7675,7 +7885,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/638e8f01-7157-3a64-b26f-06d2a5f8e722",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lo"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "lo",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sk"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Slovakia",
     "objectProperties": [
@@ -7694,6 +7905,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/7dd9b338-8122-3e7a-841d-ce30c1447db4",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "si",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "si"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Slovenia",
@@ -7713,7 +7925,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/0691a664-b24b-3f15-b20c-d5aee64b7227",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "bp"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "bp",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sb"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Solomon Islands",
     "objectProperties": [
@@ -7732,6 +7945,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/cd1b646e-bd1f-3a44-860d-d91951c6867e",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "so",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "so"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Somalia",
@@ -7751,7 +7965,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/8eff122b-d434-36b3-a41b-6f41d64956af",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sf"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sf",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "za"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "South Africa",
     "objectProperties": [
@@ -7806,7 +8021,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/c7fff82d-4ff2-3a62-8e10-a856b42c5699",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sx"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sx",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gs"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "South Georgia and South Sandwich Islands",
     "objectProperties": [    ]
@@ -7815,7 +8031,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f6d794ec-98ce-3b5e-bbea-0359b3160d27",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "od"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "od",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ss"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "South Sudan",
     "objectProperties": [    ]
@@ -7824,6 +8041,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/0343bb07-c98f-3a94-be8e-b80c0ba3d975",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "oo",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "oo"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Southern Ocean",
@@ -7833,7 +8051,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/e8c5e5be-4d49-36e3-acc7-4ed8dd3beb18",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sp"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sp",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "es"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Spain",
     "objectProperties": [
@@ -7924,6 +8143,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/96dd8d96-902e-3e5a-b3b9-6b1eaa9c80cb",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "pg",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "pg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Spratly Islands",
@@ -7933,7 +8153,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/b452d6b2-3b3c-3af8-9872-fffd99bdaf90",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ce"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ce",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "lk"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Sri Lanka",
     "objectProperties": [
@@ -7952,7 +8173,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/363eb224-f6ff-3f3c-9163-a8805222acbf",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "su"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "su",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sd"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Sudan",
     "objectProperties": [
@@ -7989,7 +8211,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/7320d5b7-9df0-36d1-b821-a30199570483",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ns"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ns",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Suriname",
     "objectProperties": [
@@ -8008,7 +8231,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/0a6190df-9675-3e3c-98b1-2fd3fc976485",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sv"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sv",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sj"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Svalbard",
     "objectProperties": [    ]
@@ -8017,7 +8241,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/8d4c780f-cfdc-3384-9e50-70f4c43da895",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sw"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sw",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "se"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Sweden",
     "objectProperties": [
@@ -8090,7 +8315,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/c57c8e6d-6a05-3795-9598-de2c08de5cf8",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sz"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sz",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ch"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Switzerland",
     "objectProperties": [
@@ -8118,6 +8344,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1d4daae7-7833-3e89-b7ce-eb6c3a117787",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "sy",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "sy"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Syria",
@@ -8155,6 +8382,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/9cd92c51-4f98-32f2-ba75-f122947e7c45",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tw",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Taiwan",
@@ -8201,7 +8429,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/41c76e52-1817-3bb9-8eb3-d29d24da7b41",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ti"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ti",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tj"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Tajikistan",
     "objectProperties": [    ]
@@ -8210,6 +8439,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1412349a-82c2-36a9-9121-0073a6d89e73",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tz",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tz"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Tanzania",
@@ -8247,6 +8477,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/fa6af6e9-7d01-3a98-b5bf-b9dc17862112",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "th",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "th"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Thailand",
@@ -8302,7 +8533,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/8c101798-2b20-32cc-8592-03e3d83dd0ee",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tt"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tt",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tl"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Timor-Leste",
     "objectProperties": [
@@ -8321,7 +8553,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/4374aaee-247f-3237-8e6c-97d5c8d64bbe",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "to"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "to",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tg"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Togo",
     "objectProperties": [
@@ -8340,7 +8573,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/5e2cbfa6-f18d-37d3-8b57-34cc3d30cf5b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tl"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tl",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tk"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Tokelau",
     "objectProperties": [    ]
@@ -8349,7 +8583,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/b295c12c-5cac-373c-9f3a-1a19682b55ac",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tn"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tn",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "to"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Tonga",
     "objectProperties": [
@@ -8368,7 +8603,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/c156a3b8-9321-32e3-8584-14ef88c2d9c4",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "td"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "td",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tt"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Trinidad and Tobago",
     "objectProperties": [    ]
@@ -8377,7 +8613,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/4402abb9-8f95-3bcb-bb6d-73029f928227",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ts"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ts",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Tunisia",
     "objectProperties": [
@@ -8405,7 +8642,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/a3da4c63-07d2-32e1-b1c8-ad62e00d05ff",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tu"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tu",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tr"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Turkey",
     "objectProperties": [
@@ -8496,7 +8734,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/066bc177-4e11-36bb-b803-25f34b6eee8b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tx"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tx",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Turkmenistan",
     "objectProperties": [
@@ -8515,7 +8754,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/4f8f608a-c4aa-3ebe-8fab-8dcee1e9c609",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tk"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tk",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tc"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Turks and Caicos Islands",
     "objectProperties": [
@@ -8534,6 +8774,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/ff0dc9ba-2500-3287-9f7a-abbaf6729ea6",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "tv",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "tv"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Tuvalu",
@@ -8553,6 +8794,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/8b438931-efa6-3a40-a6bf-7f93e32bc756",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ug",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ug"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Uganda",
@@ -8572,7 +8814,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/7c0a25c0-6ea3-3bae-90e3-9a37a5997e31",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "up"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "up",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ua"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Ukraine",
     "objectProperties": [
@@ -8663,6 +8906,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1eabdaf4-88b3-3368-abbc-a94c5f468f06",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ae",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ae"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "United Arab Emirates",
@@ -8700,7 +8944,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/68c42a32-1969-36ab-b1cf-14a8d0ab4b1a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "uk"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "uk",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "gb"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "United Kingdom",
     "objectProperties": [
@@ -8863,6 +9108,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/da2b1288-00d4-3329-9ef7-69b7ec5decc0",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "us",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "us"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "United States",
@@ -10070,6 +10316,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/2b2dfac4-d30b-3b64-9fe6-98efa9393b32",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "uy",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "uy"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Uruguay",
@@ -10116,6 +10363,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f1950b3f-82e9-32a7-97f0-7f5275e2d6d9",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "uz",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "uz"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Uzbekistan",
@@ -10135,7 +10383,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/6eb03d88-9621-33d3-8996-0e5d3f308adf",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "nh"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "nh",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "vu"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Vanuatu",
     "objectProperties": [
@@ -10163,6 +10412,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/934cff2d-ebe7-3735-b896-b62374f41307",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ve",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ve"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Venezuela",
@@ -10209,7 +10459,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/0a7c9cdf-87fa-3be0-b5a6-e67be0b6a9e9",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "vm"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "vm",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "vn"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Vietnam",
     "objectProperties": [
@@ -10246,7 +10497,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/3fabeea1-f7b5-32e3-af49-91769654d9f7",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "vq"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "vq",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "vi"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Virgin Islands",
     "objectProperties": [    ]
@@ -10255,6 +10507,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/f88b2c03-c7c6-3a89-b9b5-7836fce43449",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "wq",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "wq"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Wake Island",
@@ -10264,6 +10517,7 @@
     "@id": "http://williamrobertfunk.com/instance/Country/78991a54-7c4f-3765-8224-e8cdc0b7b67b",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "wf",
       "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "wf"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Wallis and Futuna",
@@ -10273,7 +10527,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/676e6f35-cfc1-33f7-bfea-9fe27699cf81",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "we"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "we",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ps"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "West Bank",
     "objectProperties": [    ]
@@ -10282,7 +10537,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/d0ec2650-6c8c-3a9d-920f-477fd1d867bd",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "wi"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "wi",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "eh"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Western Sahara",
     "objectProperties": [    ]
@@ -10291,7 +10547,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/946714ad-ebff-320b-92c0-f4ca196704d3",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ym"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "ym",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "ye"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Yemen",
     "objectProperties": [
@@ -10337,7 +10594,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/85c9baff-1521-3366-b43d-fbda4b499260",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "za"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "za",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "zm"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Zambia",
     "objectProperties": [
@@ -10356,7 +10614,8 @@
     "@id": "http://williamrobertfunk.com/instance/Country/1396bc8a-5619-3f2d-9f66-a3d7b7abd12a",
     "@type": "http://williamrobertfunk.com/ontologies/world-factbook#Country",
     "datatypeProperties": {
-      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "zi"
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeGEC": "zi",
+      "http://williamrobertfunk.com/ontologies/world-factbook#countryCodeISO": "zw"
     },
     "http://www.w3.org/2000/01/rdf-schema#label": "Zimbabwe",
     "objectProperties": [

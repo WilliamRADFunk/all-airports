@@ -4,8 +4,8 @@ import * as getUuid from 'uuid-by-string';
 import { consts } from '../constants/constants';
 import { store } from '../constants/globalStore';
 import { EntityContainer } from '../models/entity-container';
+import { isoCodeToDataCode } from '../utils/country-code-lookup-tables';
 import { countryToId } from '../utils/country-to-id';
-import { isoCorrection } from '../utils/create-lookup-table';
 import { entityMaker } from '../utils/entity-maker';
 import { entityRefMaker } from '../utils/entity-ref-maker';
 
@@ -69,7 +69,7 @@ export function getAirportsFromGeoJson() {
 		const countryISO = airportSourceObject && airportSourceObject.iso;
 		// Associate Country
 		if (countryISO) {
-			const countryId = countryToId(isoCorrection(countryISO));
+			const countryId = countryToId(isoCodeToDataCode(countryISO));
 			store.airports[airportId].objectProperties.push(
 				entityRefMaker(
 					consts.ONTOLOGY.HAS_COUNTRY,

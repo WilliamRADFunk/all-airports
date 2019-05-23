@@ -22,6 +22,7 @@ const BASE = {
 
 const ONTOLOGY = {
 	// Ontology definition paths for (predicate) datatype properties
+	DT_GEC_CODE: COUNTRY_ONT_PATH + 'countryCodeGEC',
 	DT_IATA_CODE: MAIN_ONT_PATH + 'iataCode',
 	DT_ICAO_CODE: MAIN_ONT_PATH + 'icaoCode',
 	DT_ISO_CODE: COUNTRY_ONT_PATH + 'countryCodeISO',

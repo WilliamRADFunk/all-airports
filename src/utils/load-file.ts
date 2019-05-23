@@ -14,8 +14,8 @@ export function loadFile(fileName: string, storeName: string, isCountry?: boolea
     if (fileData) {
         const file = JSON.parse(fileData);
         store[storeName] = file;
-        if (isCountry) {
-            store.countriesInList = file.countriesInList;
-        }
+        // if (isCountry) {
+        //     store.countriesInList = file.countriesInList;
+        // }
     }
 };
