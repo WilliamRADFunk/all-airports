@@ -28,6 +28,7 @@ const ONTOLOGY = {
 	DT_ISO_CODE: COUNTRY_ONT_PATH + 'countryCodeISO',
 	DT_NAME: MAIN_ONT_PATH + 'name',
 	DT_RELATIVE_SIZE: MAIN_ONT_PATH + 'relativeSize',
+	DT_STATUS: MAIN_ONT_PATH + 'status',
 	DT_TYPE: MAIN_ONT_PATH + 'type',
 	DT_WIKI_URI: MAIN_ONT_PATH + 'wikiURI',
 	// Ontology definition paths for (predicate) object/relation properties

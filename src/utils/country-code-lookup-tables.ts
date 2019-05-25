@@ -11,7 +11,12 @@ export function createLookupTable(): void {
     });
 };
 
+export const airportDataList = airportDataNpm;
+
 const isoCodeToDataCodeTable = {
+    mq: 'fr', MQ: 'fr',
+    gp: 'fr', GP: 'fr',
+    re: 'fr', RE: 'fr',
     ye: 'ym', YE: 'ym',
     ru: 'rs', RU: 'rs',
     ua: 'up', UA: 'up',
@@ -114,7 +119,6 @@ const isoCodeToDataCodeTable = {
     mo: 'mc', MO: 'mc',
     mg: 'ma', MG: 'ma',
     mh: 'rm', MH: 'rm',
-    mq: 'mb', MQ: 'mb',
     mu: 'mp', MU: 'mp',
     mc: 'mn', MC: 'mn',
     mn: 'mg', MN: 'mg',
