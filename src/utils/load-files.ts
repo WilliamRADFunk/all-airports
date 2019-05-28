@@ -11,5 +11,7 @@ export function loadFiles(): void {
     loadFile('countries', 'countries', true);
     loadFile('airlines', 'airlines');
     loadFile('airports', 'airports');
+    loadFile('elevations', 'elevations');
     loadFile('locations', 'locations');
+    loadFile('municipalities', 'municipalities');
 };

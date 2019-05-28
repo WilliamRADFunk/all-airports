@@ -12,5 +12,6 @@ export function flushStore() {
 	store.airports = {};
 	store.airlines = {};
 	store.countries = {};
+	store.elevations = {};
 	store.locations = {};
 };

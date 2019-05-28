@@ -42,3 +42,19 @@ Now the `dist/json`, `dist/jsonld`, and `dist/ontology` files are updated. Use t
 There is a project at [data-glutton](https://github.com/WilliamRADFunk/data-glutton.git) that coordinates between multiple data scrapers like this one to create a uniform, ontologically defined, store of rich linked data.
 
 Try it out.
+
+## Credits
+
+### Open Source Data Locations
+
+airports-source.json    -->
+
+https://jdelbourgo.opendatasoft.com/explore/dataset/natural-earth-airports/table/?flg=en&rows=20000&refine.featurecla=Airport&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6Im5hdHVyYWwtZWFydGgtYWlycG9ydHMiLCJvcHRpb25zIjp7ImZsZyI6ImVuIn19LCJjaGFydHMiOlt7ImFsaWduTW9udGgiOnRydWUsInR5cGUiOiJwaWUiLCJmdW5jIjoiQVZHIiwieUF4aXMiOiJzY2FsZXJhbmsiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiJyYW5nZS1BY2NlbnQiLCJwb3NpdGlvbiI6ImNlbnRlciJ9XSwieEF4aXMiOiJzY2FsZXJhbmsiLCJtYXhwb2ludHMiOjUwLCJzb3J0IjoiIiwic2VyaWVzQnJlYWtkb3duIjoiIiwic2VyaWVzQnJlYWtkb3duVGltZXNjYWxlIjoiIn1dLCJ0aW1lc2NhbGUiOiIiLCJkaXNwbGF5TGVnZW5kIjp0cnVlLCJhbGlnbk1vbnRoIjp0cnVlfQ%3D%3D
+
+airports-npm.json       -->
+
+https://github.com/jbrooksuk/JSON-Airports/blob/master/airports.json
+
+airports-datahub.json   -->
+
+https://datahub.io/core/airport-codes
