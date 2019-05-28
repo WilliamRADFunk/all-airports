@@ -151,7 +151,7 @@
       Hyphen-delimited region code within a country assigned by the International Organization for Standardization
     </rdfs:comment>
     <rdf:type rdf:resource="&owl;FunctionalProperty" />
-    <rdfs:domain rdf:resource="&Airport;Country"/>
+    <rdfs:domain rdf:resource="&wfact;Country"/>
     <rdfs:range rdf:resource="&xsd;string"/>
   </DatatypeProperty>
 

@@ -87,7 +87,7 @@
   <ObjectProperty rdf:about="&wfact;hasMunicipality">
     <rdfs:domain rdf:resource="&municipality;Municipality"/>
     <rdfs:range rdf:resource="&airport;Airport"/>
-    <rdfs:range rdf:resource="&airport;Country"/>
+    <rdfs:range rdf:resource="&wfact;Country"/>
   </ObjectProperty>
 
   <!--
