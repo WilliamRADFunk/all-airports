@@ -8,6 +8,8 @@ export function flushStore() {
 	store.airportTable = {};
 	store.failedAirlines = [];
 	store.failedAirports = [];
+	store.jsonLD = [];
+	store.jsonNT = '';
 
 	store.airports = {};
 	store.airlines = {};
