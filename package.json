@@ -8,6 +8,7 @@
     "clean:dist": "npm-run-all clean:dist:*",
     "clean:dist:json": "rimraf dist/**/*.json",
     "clean:dist:jsonld": "rimraf dist/ontology/**/*.jsonld",
+    "clean:dist:nt": "rimraf dist/**/*.nt",
     "clean:dist:rdf": "rimraf dist/ontology/**/*.rdf",
     "clean:logs": "rimraf logs/*log*",
     "copy:ontology": "npm-run-all copy:jsonld copy:owl",
@@ -17,9 +18,11 @@
     "lint": "tslint -p tsconfig.json",
     "postbuild": "copyfiles -u 1 ontology/*.rdf lib/ontology/owl/",
     "scrape": "ts-node src/index.ts",
-    "start": "run-s clean:logs clean:dist scrape copy:ontology",
+    "start": "run-s clean:logs clean:dist scrape copy:ontology zip",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "zip": "bestzip dist/images.zip dist/images/*"
+    "zip": "npm-run-all zip:*",
+    "zip:images": "bestzip dist/images.zip dist/images/*",
+    "zip:triples": "bestzip dist/n-triples/n-triples.zip dist/n-triples/*.schema.nt"
   },
   "files": [
     "lib/**/*"
@@ -52,6 +55,7 @@
     "@types/graceful-fs": "^4.1.3",
     "@types/request-promise": "^4.1.42",
     "airports": "^1.0.0",
+    "bestzip": "^2.1.4",
     "bluebird": "^3.5.4",
     "cheerio": "^1.0.0-rc.2",
     "copyfiles": "^2.1.0",
