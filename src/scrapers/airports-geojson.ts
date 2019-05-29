@@ -217,7 +217,7 @@ export function getAirportsFromGeoJson() {
 				makeElevation(existingAirport, ap);
 			}
 			if (ap.municipality) {
-				// makeMunicipality(existingAirport, ap, store.countries[countryId]);
+				makeMunicipality(existingAirport, ap, store.countries[countryId]);
 			}
 			return;
 		}
@@ -320,7 +320,7 @@ export function getAirportsFromGeoJson() {
 		
 		// Extract Municipality
 		if (ap.municipality) {
-			// makeMunicipality(store.airports[airportId], ap, store.countries[countryId]);
+			makeMunicipality(store.airports[airportId], ap, store.countries[countryId]);
 		}
 	});
 };

@@ -6,21 +6,17 @@ import { store } from '../constants/globalStore';
 import { FlatEntity } from '../models/flat-entity';
 
 export function saveFile(fileName: string, storeName: string, context: string): void {
-	store.debugLogger(`Saving ${storeName} in ${fileName}.json`);
+	store.debugLogger(`--- Saving ${storeName} in ${fileName}.json`);
 	// Normal JSON file.
-    let file = fj(JSON.stringify(store[storeName]));
-	store.debugLogger(`Stringified ${storeName} to json`);
-	file = file.replace(/\\n/g, ' ');
-	store.debugLogger(`Removed line breaks in ${storeName}`);
-	fs.writeFileSync(`dist/json/${fileName}.json`, file);
-	store.debugLogger(`Saved ${storeName} in ${fileName}.json`);
+	fs.writeFileSync(`dist/json/${fileName}.json`, JSON.stringify(store[storeName]));
+	store.debugLogger(`+++ Saved ${storeName} in ${fileName}.json`);
 	// JSON-LD file construction.
 	const jsonLD: FlatEntity[] = [];
 	// const jsonLD = {
 	// 	'@context': context,
 	// 	'@graph': []
 	// };
-	store.debugLogger(`Saving ${storeName} in ${fileName}.schema.jsonld`);
+	store.debugLogger(`--- Saving ${storeName} in ${fileName}.schema.jsonld`);
 	Object.keys(store[storeName]).forEach(key1 => {
 		// Grab the basic @id, @type, and rdfs label
 		const mainObj = {
@@ -54,8 +50,10 @@ export function saveFile(fileName: string, storeName: string, context: string): 
 		store[storeName][key1] = null;
 	});
 
+	store[storeName] = {};
+
     let fileLD = fj(JSON.stringify(jsonLD));
 	fileLD = fileLD.replace(/\\n/g, ' ');
 	fs.writeFileSync(`dist/jsonld/${fileName}.schema.jsonld`, fileLD);
-	store.debugLogger(`Saved ${storeName} in ${fileName}.schema.jsonld`);
+	store.debugLogger(`+++ Saved ${storeName} in ${fileName}.schema.jsonld`);
 };
