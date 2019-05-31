@@ -6,11 +6,9 @@ export { consts } from './constants/constants';
 export { store } from './constants/globalStore';
 
 // Models
-export { CountryReference } from './models/country-reference';
-export { EntityContainer } from './models/entity-container';
-export { EntityListWrapper } from './models/entity-list-wrapper';
-export { Entity } from './models/entity';
-export { FlatEntity } from './models/flat-entity';
+export { AirportDatahubSourceObject } from './models/airport-datahub-source-object';
+export { AirportNpmSourceObject } from './models/airport-npm-source-object';
+export { AirportProperties } from './models/airport-properties';
 
 // Utility Functions
 export { flushStore } from './utils/flush-store';
@@ -18,4 +16,6 @@ export { loadFiles } from './utils/load-files';
 export { saveFiles } from './utils/save-files';
 
 // Data Scrape Functions
+export { getAirportsFromGeoJson } from './scrapers/airports-geojson';
+export { createLookupTable } from './utils/country-code-lookup-tables';
 export { getCountries } from './utils/get-countries';

@@ -1,6 +1,6 @@
 {
   "name": "all-airports",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Serves as an independent data scraping module, complete with ontology and full scraping ability for the airports of the world",
   "main": "lib/api.js",
   "scripts": {
@@ -12,16 +12,15 @@
     "clean:dist:rdf": "rimraf dist/ontology/**/*.*",
     "clean:logs": "rimraf logs/*log*",
     "copy:ontology": "npm-run-all copy:jsonld copy:owl",
-    "copy:jsonld": "copyfiles -u 1 ontology/*.json dist/ontology/jsonld/",
-    "copy:owl": "copyfiles -u 1 ontology/*.rdf dist/ontology/owl/",
+    "copy:jsonld": "copyfiles -u 5 node_modules/funktologies/lib/ontology/**/*.jsonld dist/ontology/jsonld/",
+    "copy:owl": "copyfiles -u 5 node_modules/funktologies/lib/ontology/**/*.rdf dist/ontology/owl/",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "postbuild": "copyfiles -u 1 ontology/*.rdf lib/ontology/owl/",
+    "postbuild": "copyfiles -u 4 node_modules/funktologies/lib/ontology/**/*.* lib/ontology/",
     "scrape": "ts-node src/index.ts",
-    "start": "run-s clean:logs clean:dist scrape copy:ontology zip",
+    "start": "run-s clean:logs clean:dist scrape copy:ontology zip -- --recurse-directories=false",
     "test": "echo \"Error: no test specified\" && exit 1",
     "zip": "npm-run-all zip:*",
-    "zip:images": "bestzip dist/images.zip dist/images/*",
     "zip:triples": "bestzip dist/n-triples/n-triples.zip dist/n-triples/*.schema.nt"
   },
   "files": [
@@ -60,6 +59,7 @@
     "cheerio": "^1.0.0-rc.2",
     "copyfiles": "^2.1.0",
     "formatter-json": "^0.1.1",
+    "funktologies": "^0.1.0",
     "html-to-text": "^4.0.0",
     "image-downloader": "^3.4.2",
     "log4js": "^4.1.0",

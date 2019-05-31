@@ -1,7 +1,5 @@
+import { CountryReference, EntityListWrapper, FlatEntity } from "funktologies";
 import { AirportNpmSourceObject } from "../models/airport-npm-source-object";
-import { CountryReference } from "../models/country-reference";
-import { EntityListWrapper } from "../models/entity-list-wrapper";
-import { FlatEntity } from "../models/flat-entity";
 import { consoleError, consoleLog } from "../utils/logger";
 
 // const noop = () => { /* Noop */ };

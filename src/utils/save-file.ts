@@ -3,7 +3,6 @@ import * as fs from 'graceful-fs';
 
 import { consts } from '../constants/constants';
 import { store } from '../constants/globalStore';
-import { FlatEntity } from '../models/flat-entity';
 
 export function saveFile(fileName: string, storeName: string, context: string): void {
 	store.debugLogger(`--- Saving ${storeName} in ${fileName}.json`);
@@ -63,14 +62,13 @@ export function saveFile(fileName: string, storeName: string, context: string): 
 
 	store.debugLogger(`~~~ Saving ${storeName} to ${fileName}.schema.nt`);
 	fs.writeFileSync(`dist/n-triples/${fileName}.schema.nt`, store.jsonNT);
-	store.debugLogger(`+++ Saved ${storeName} in ${fileName}.schema.nt`);
 	store.jsonNT = '';
 };
 
 function convertJsonldToNTriples(): void {
 	const length = store.jsonLD.length;
 	for (let i = 0; i < length; i++) {
-		let entity = store.jsonLD.pop();
+		const entity = store.jsonLD.pop();
 		if (entity) {
 			const mainId = entity['@id'];
 			const mainLabel = entity['http://www.w3.org/2000/01/rdf-schema#label'];

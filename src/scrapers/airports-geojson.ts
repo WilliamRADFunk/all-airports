@@ -1,17 +1,13 @@
 
+import { Entity, EntityContainer, entityMaker, entityRefMaker, getRelation } from 'funktologies';
 import * as getUuid from 'uuid-by-string';
 
 import { consts } from '../constants/constants';
 import { store } from '../constants/globalStore';
 import { AirportDatahubSourceObject } from '../models/airport-datahub-source-object';
 import { AirportProperties } from '../models/airport-properties';
-import { Entity } from '../models/entity';
-import { EntityContainer } from '../models/entity-container';
 import { airportDatahubList, airportDataList, isoCodeToDataCode } from '../utils/country-code-lookup-tables';
 import { countryToId } from '../utils/country-to-id';
-import { entityMaker } from '../utils/entity-maker';
-import { entityRefMaker } from '../utils/entity-ref-maker';
-import { getRelation } from '../utils/get-objectProperty';
 
 import * as airportDataLocal from '../assets/airports-source.json';
 
