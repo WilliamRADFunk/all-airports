@@ -9,5 +9,8 @@ import { saveFiles } from './utils/save-files';
     await getCountries();
     createLookupTable();
     dataScrapers.getAirportsFromGeoJson();
+    dataScrapers.getAirportsFromNpm();
+    dataScrapers.getAirportsFromDatahub();
+    dataScrapers.getRunwaysFromOurAirports();
     saveFiles();
 })();

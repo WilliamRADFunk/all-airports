@@ -16,4 +16,6 @@ export function flushStore() {
 	store.countries = {};
 	store.elevations = {};
 	store.locations = {};
+	store.runways = {};
+	store.surfaceMaterials = {};
 };

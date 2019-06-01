@@ -1,6 +1,6 @@
 {
   "name": "all-airports",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Serves as an independent data scraping module, complete with ontology and full scraping ability for the airports of the world",
   "main": "lib/api.js",
   "scripts": {
@@ -58,8 +58,9 @@
     "bluebird": "^3.5.4",
     "cheerio": "^1.0.0-rc.2",
     "copyfiles": "^2.1.0",
+    "csv": "^5.1.1",
     "formatter-json": "^0.1.1",
-    "funktologies": "^0.1.0",
+    "funktologies": "^0.1.1",
     "html-to-text": "^4.0.0",
     "image-downloader": "^3.4.2",
     "log4js": "^4.1.0",
