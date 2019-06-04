@@ -1,4 +1,3 @@
-import * as fj from 'formatter-json';
 import * as fs from 'graceful-fs';
 
 import { Entity } from 'funktologies';
