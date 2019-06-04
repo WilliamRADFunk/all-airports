@@ -25,8 +25,11 @@ class GlobalStore {
 	public airlines: EntityListWrapper = {};
 	public countries: EntityListWrapper = {};
 	public elevations: EntityListWrapper = {};
+	public helicopterLandingZones:  EntityListWrapper = {};
 	public locations: EntityListWrapper = {};
 	public municipalities: EntityListWrapper = {};
+	public runways: EntityListWrapper = {};
+	public surfaceMaterials: EntityListWrapper = {};
 }
 
 export const store = new GlobalStore();

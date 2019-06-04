@@ -9,6 +9,7 @@ export { store } from './constants/globalStore';
 export { AirportDatahubSourceObject } from './models/airport-datahub-source-object';
 export { AirportNpmSourceObject } from './models/airport-npm-source-object';
 export { AirportProperties } from './models/airport-properties';
+export { RunwayOurairportsSourceObject } from './models/runway-ourairports-source-object';
 
 // Utility Functions
 export { flushStore } from './utils/flush-store';
@@ -16,6 +17,10 @@ export { loadFiles } from './utils/load-files';
 export { saveFiles } from './utils/save-files';
 
 // Data Scrape Functions
+export { getAirportsFromDatahub } from './scrapers/airports-datahub';
 export { getAirportsFromGeoJson } from './scrapers/airports-geojson';
+export { getAirportsFromNpm } from './scrapers/airports-npm';
+export { getRunwaysFromOurAirports } from './scrapers/airports-oa-runways';
+export { getHelicopterLandingZones } from './scrapers/helicopter-landing-zones';
 export { createLookupTable } from './utils/country-code-lookup-tables';
 export { getCountries } from './utils/get-countries';
