@@ -96,9 +96,9 @@ function convertJsonldToNTriples(): void {
 					if (val.split('"').length > 1) {
 						store.jsonNT += `<${mainId}> <${entry[0]}> ${val}^^<http://www.w3.org/2001/XMLSchema#string> .\n`;
 					} else if (val.split('.').length > 1) {
-						store.jsonNT += `<${mainId}> <${entry[0]}> ${val}^^<http://www.w3.org/2001/XMLSchema#double> .\n`;
+						store.jsonNT += `<${mainId}> <${entry[0]}> "${val}"^^<http://www.w3.org/2001/XMLSchema#double> .\n`;
 					} else {
-						store.jsonNT += `<${mainId}> <${entry[0]}> ${val}^^<http://www.w3.org/2001/XMLSchema#integer> .\n`;
+						store.jsonNT += `<${mainId}> <${entry[0]}> "${val}"^^<http://www.w3.org/2001/XMLSchema#integer> .\n`;
 					}
 				}
 			});
