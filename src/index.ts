@@ -11,6 +11,6 @@ import { saveFiles } from './utils/save-files';
     dataScrapers.getAirportsFromGeoJson();
     dataScrapers.getAirportsFromNpm();
     dataScrapers.getAirportsFromDatahub();
-    dataScrapers.getRunwaysFromOurAirports();
+    await dataScrapers.getRunwaysFromOurAirports();
     saveFiles();
 })();

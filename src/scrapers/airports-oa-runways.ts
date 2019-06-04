@@ -1,6 +1,8 @@
-import { csv } from 'csv-parse';
-import { Entity, EntityContainer, entityMaker, entityRefMaker, getRelation } from 'funktologies';
+import * as csv from 'csvtojson';
+import * as fs from 'graceful-fs';
 import * as getUuid from 'uuid-by-string';
+
+import { Entity, EntityContainer, entityMaker, entityRefMaker, getRelation } from 'funktologies';
 
 import { consts } from '../constants/constants';
 import { store } from '../constants/globalStore';
@@ -10,76 +12,222 @@ import { isoCodeToDataCode } from '../utils/country-code-lookup-tables';
 import { countryToId } from '../utils/country-to-id';
 
 const materialLookupTable: { [key: string]: string } = {
-    'ASPH': 'Asphalt',
+    '\'CONCRETE\'': 'Concrete',
+    'ALUM': 'ALUMINUM',
+    'ALUMINUM': 'ALUMINUM',
+    'ASB': 'Asbestos Cement',
+    'ASFALT': 'Asphalt',
     'ASP': 'Asphalt',
+    'ASPH': 'Asphalt',
     'ASPHALT': 'Asphalt',
+    'ASPHALT CONCRETE': 'Concrete (Asphalt)',
+    'ASPHALT MIX': 'Asphalt (Mix)',
+    'ASPHALTIC CONCRETE': ' Concrete (Asphalt)',
     'BIT': 'Bituminous asphalt or tarmac',
+    'BITUMEN': 'Bitumen',
+    'BITUMINOUS': 'Bitumen',
+    'BLACK CLAY': 'Clay (Black)',
+    'BLACK SILT': 'Silt (Black)',
     'BRI': 'Bricks',
+    'BRICK': 'Bricks',
+    'BROWN CLAY': 'Clay (Brown)',
+    'BROWN CLAY GRAVEL': 'Gravel (Brown Clay)',
+    'BROWN GRAVEL': 'Gravel (Brown)',
+    'BROWN SILT CLAY': 'Clay (Brown Silt)',
+    'CALICHE': 'Cement (Caliche)',
+    'CINDERS': 'Gravel (Cinders)',
+    'CL': 'Clay',
     'CLA': 'Clay',
+    'CLAY': 'Clay',
+    'COM': 'Composite',
+    'COMPACTED EARTH': 'Earth (Compacted)',
     'CON': 'Concrete',
     'CONC': 'Concrete',
+    'CONCRETE': 'Concrete',
+    'COP': 'Composite',
     'COR': 'Coral (fine crushed coral reef structures)',
+    'CORAL': 'Coral (fine crushed coral reef structures)',
+    'CORAL SAND': 'Sand (Crushed Coral)',
+    'CRUSHED ROCK': 'Crushed Rock',
+    'CRUSHED STONE': 'Crushed Stone',
+    'DECK': 'Deck',
     'DIRT': 'Dirt',
+    'DIRT(CALICHE)': 'Dirt (Caliche)',
+    'EARTH': 'Earth',
+    'FROZEN LAKE': 'Ice (Frozen Lake)',
+    'GRAAS': 'Grass',
+    'GRADED EARTH': 'Earth (Graded)',
+    'GRAIN': 'Grain',
+    'GRAS': 'Grass',
     'GRASS': 'Grass',
+    'GRASS CORAL': 'Coral (Grass)',
+    'GRASS DIRT': 'Dirt (Grass)',
+    'GRASS OR EARTH NOT GRADED OR ROLLED': 'Earth/Grass (Not Graded or rolled)',
+    'GRASS RED SILTY CLAY': 'Clay (Grassed Red Silt)',
+    'GRASS RED SILTY SAND': 'Sand (Grassed Red Silt)',
+    'GRASSED BLACK CLAY': 'Clay (Grassed Black)',
+    'GRASSED BLACK CLAY SAND': 'Sand (Grassed Black Clay)',
+    'GRASSED BLACK CLAY SILT': 'Silt (Grassed Black Clay)',
+    'GRASSED BLACK SAND': 'Sand (Grassed Black)',
+    'GRASSED BLACK SILT': 'Silt (Grassed Black)',
+    'GRASSED BLACK SILT CLAY': 'Clay (Grassed Black Silt)',
+    'GRASSED BLACK SOIL': 'Soil (Grassed Black)',
+    'GRASSED BLACKCLAY': 'Clay (Grassed Black)',
+    'GRASSED BROWN CLAY': 'Clay (Grassed Brown)',
+    'GRASSED BROWN GRAVEL': 'Gravel (Grassed Brown)',
+    'GRASSED BROWN SANDY CLAY': 'Clay (Grassed Brown Sandy)',
+    'GRASSED BROWN SILT CLAY': 'Clay (Grassed Brown Silt)',
+    'GRASSED BROWN SILT LOAM': 'Loam (Grassed Brown Silt)',
+    'GRASSED BROWN SILTY CLAY': 'Clay (Grassed Brown Silt)',
+    'GRASSED CLAY': 'Clay (Grassed)',
+    'GRASSED CLAY SILT CLAY': 'Clay (Grassed Silt)',
+    'GRASSED GRAVEL': 'Gravel (Grassed)',
+    'GRASSED GREY CLAY': 'Clay (Grassed Grey)',
+    'GRASSED GREY GRAVEL': 'Gravel (Grassed Grey)',
+    'GRASSED GREY SAND': 'Sand (Grassed Grey)',
+    'GRASSED GREY SILT CLAY': 'Clay (Grassed Grey Silt)',
+    'GRASSED GREY SILT SAND': 'Sand (Grassed Grey Silt)',
+    'GRASSED LIMESTONE GRAVEL': 'Gravel (Grassed Limestone)',
+    'GRASSED RED CLAY': 'Clay (Grassed Red)',
+    'GRASSED RED SILT': 'Silt (Grassed Red)',
+    'GRASSED RED SILT CLAY': 'Clay (Grassed Red Silt)',
+    'GRASSED RED SILT SAND': 'Sand (Grassed Red Silt)',
+    'GRASSED RED SILTY CLAY': 'Clay (Grassed Red Silt)',
+    'GRASSED RED SILTY SAND': 'Sand (Grassed Red Silt)',
+    'GRASSED RIVER GRAVEL': 'Gravel (Grassed Gravel)',
+    'GRASSED SAND': 'Sand (Grassed)',
+    'GRASSED SANDY LOAM': 'Loam (Grassed sandy)',
+    'GRASSED SILT CLAY': 'Clay (Grassed Silt)',
+    'GRASSED WHITE GRAVEL': 'Gravel (Grassed White)',
+    'GRASSED WHITE LIME STONE': 'Limestone (Grassed White)',
+    'GRASSED YELLOW CLAY': 'Clay (Grassed Yellow)',
+    'GRASSED YELLOW GRAVEL': 'Gravel (Grassed Yellow)',
+    'GRASSED YELLOW SILT CLAY': 'Clay (Grassed Yellow Silt)',
+    'GRASSY': 'Grass',
+    'GRAV': 'Gravel',
     'GRAVEL': 'Gravel',
-    'GRE': 'Graded or rolled earth/grass',
+    'GRE': 'Earth/Grass (Graded or rolled)',
+    'GREY CLAY': 'Clay (Grey)',
+    'GREY GRAVEL': 'Gravel (Grey)',
+    'GREY SILT CLAY': 'Clay (Grey Silt)',
+    'GROUND': 'Earth',
     'GRS': 'Grass',
+    'GRV': 'Gravel',
     'GRVL': 'Gravel',
     'GVL': 'Gravel',
+    'HARD CLAY': 'Clay (Hard)',
+    'HARD LOAM': 'Loam (Hard)',
+    'HARD MUD': 'Mud (Hard)',
+    'HARD SAND': 'Sand (HARD)',
     'ICE': 'Ice',
     'LANDING MATS': 'Marston Matting',
     'LAT': 'Laterite',
+    'LIMESTONE': 'Limestone',
+    'LOOSE GRAVEL': 'Gravel (Loose)',
     'MAC': 'Macadam',
+    'MAICILLO': 'Sand (Maicillo)',
+    'MARSTON MATTING': 'Marston Matting',
     'MAT': 'Marston Matting',
     'MATS': 'Marston Matting',
     'MEMBRANES': 'Marston Matting',
+    'MET': 'Metal',
+    'METAL': 'Metal',
+    'MOSS': 'Earth (Moss)',
     'NATURAL SOIL': 'Natural Soil',
+    'NEOPRENE': 'Neoprene',
+    'OILED DIRT': 'Dirt (Oiled)',
+    'OILED GRAVEL': 'Gravel (Oiled)',
+    'OILGRAVEL': 'Gravel (Oiled)',
+    'OLD ASP': 'Asphalt (Old)',
+    'OLIGRAVEL': 'Gravel (Oiled)',
+    'PACKED': 'Dirt (Packed)',
+    'PACKED DIRT': 'Dirt (Packed)',
+    'PACKED GRAVEL': 'Gravel (Packed)',
+    'PAD': 'Blast Pads',
+    'PAVED': 'Pavement',
+    'PAVEMENT': 'Pavement',
     'PEM': 'Partially concrete, asphalt or bitumen-bound macadam',
     'PER': 'Permanent surface, details unknown',
+    'PFC': 'Porous Friction Course',
     'PIERCED STEEL PLANKING': 'Marston Matting',
     'PSP': 'Marston Matting',
+    'RED CLAY': 'Clay (Red)',
+    'RED CLAY GRAVEL': 'Gravel (Red Clay)',
+    'RED GRAVEL': 'Gravel (Red)',
+    'RED SILT CLAY': 'Clay (Red Silt)',
+    'ROCK': 'Rock',
+    'ROCKY GRAVEL': 'Gravel (Rocky)',
+    'ROLLED EARTH': 'Earth (Rolled)',
     'ROOF': 'Rooftop',
     'ROOF-TOP': 'Rooftop',
+    'ROOF/TOP': 'Rooftop',
+    'ROOFTOP': 'Rooftop',
     'SAN': 'Sand',
+    'SAND': 'Sand',
+    'SAND GRASS': 'Sand (Grass)',
+    'SANDY SOIL': 'Soil (Sandy)',
+    'SHELLS': 'Shells',
+    'SLAG': 'Slag',
     'SMT': 'Sommerfeld Tracking',
+    'SN': 'Sand',
     'SNO': 'Snow',
+    'SNOW': 'Snow',
     'SOD': 'Sod',
+    'SOFT GRAVEL': 'Gravel (Soft)',
+    'SOFT SAND': 'Sand (Soft)',
+    'SOIL': 'Soil',
+    'STEEL': 'Steel',
+    'STONE': 'Stone',
+    'STONE DUST': 'Stone (Dust)',
+    'TARMAC': 'Tarmac',
+    'TOP': 'Rooftop',
     'TREATED': 'Treated',
+    'TREATED GRAVEL': 'Gravel (Treated)',
+    'TREATED SAND': 'Sand (Treated)',
     'TRTD': 'Treated',
+    'TRTD GRVL': 'Gravel (Treated)',
     'TURF': 'Turf',
+    'U': 'Unknown',
+    'UNK': 'Unknown',
+    'UNKNOWN': 'Unknown',
+    'UNPAVED': 'Unknown (Unpaved)',
     'WATER': 'Water',
+    'WHITE GRAVEL': 'Gravel (White)',
     'WOOD': 'Wood',
-    'U': 'Unknown'
+    'YELLOW GRAVEL': 'Gravel (Yellow)',
 };
 const conditionLookupTable = {
-    'P': 'Poor',
-    'p': 'Poor',
     'F': 'Fair',
-    'f': 'Fair',
     'G': 'Good',
-    'g': 'Good'
+    'P': 'Poor',
+    'f': 'Fair',
+    'g': 'Good',
+    'p': 'Poor'
 };
 
-const csvObject = csv({
-  delimiter: ','
-});
+export async function getRunwaysFromOurAirports(): Promise<void> {
+    const runwayData: RunwayOurairportsSourceObject[] = [];
 
-export function getRunwaysFromOurAirports(): void {
-    const runwayData: Array<RunwayOurairportsSourceObject> = [];
+    const jsonifiedData = await csv({
+        headers: ['id','refId', 'ident', 'length', 'width', 'surfMat', 'lighted', 'closed'],
+        noheader: false
+    }).fromFile('src/assets/runways-ourairports.csv');
 
-    let fileData: string;
-    // If file exists, great. Otherwise make a blank one for later.
-    try {
-        fileData = fs.readFileSync(`../assets/runways-ourairports.csv`) as any as string;
-    } catch (err) {
-        fileData = '';
-    }
-
-    csvObject(fileData).to.array(data => {
-        data.forEach(datum => runwayData.push(CSV(datum[0], datum[1], datum[2], datum[3], datum[4], datum[5], datum[6], datum[7])));
-    });
+    jsonifiedData.forEach(datum => runwayData.push(CSV(
+        datum.id,
+        datum.refId,
+        datum.ident,
+        datum.length,
+        datum.width,
+        datum.surfMat,
+        datum.lighted,
+        datum.closed
+    )));
     
 	Object.values(runwayData).forEach(runway => {
+        if (!runway.length || !runway.width || !runway.ident) {
+            return;
+        }
         const airportId = consts.ONTOLOGY.INST_AIRPORT + getUuid(runway.ident);
         const airport = store.airports[airportId];
         // If an airport doesn't already exist in the store for this runway,
@@ -108,31 +256,46 @@ export function getRunwaysFromOurAirports(): void {
             runMap.datatypeProperties[consts.ONTOLOGY.DT_UNIT] = 'ft';
             
             if (runway.surfMat) {
+                runway.surfMat = runway.surfMat.replace(',', ' - ');
                 // Catches edge case where single letters specifiy condition of the runway material.
                 const hyphenList = runway.surfMat.split('-').map(sm => sm.trim());
-                const hasCondition = (hyphenList[1] && hyphenList[1].length === 1) || null;
+                const lastDescriptor = hyphenList[hyphenList.length - 1];
+                const hasCondition = (lastDescriptor && lastDescriptor.length === 1) || null;
                 let condition = '';
                 if (hasCondition) {
-                    condition = conditionLookupTable[hyphenList[1]];
+                    condition = conditionLookupTable[lastDescriptor];
                 }
 
                 // Ensure synonyms of same material aren't counted as extra
-                const surfaceMaterials: string[] = runway.surfMat.split(/-|\//).map(sm => sm.trim()) || [];
+                let surfaceMaterials: string[] = runway.surfMat.split('/').map(sm => sm.trim());
+                // The longer list is 
+                if (hyphenList.length > 1) {
+                    if (surfaceMaterials.length > 1) {
+                        surfaceMaterials = [];
+                        hyphenList.forEach(item => surfaceMaterials.push(...item.split('/').map(sm => sm.trim())));
+                    } else {
+                        surfaceMaterials = hyphenList;
+                    }
+                }
                 let convertedSurList: string[] = []; 
                 if (!hasCondition) {
                     surfaceMaterials.forEach(mat => {
                         convertedSurList.push(materialLookup(mat));
                     });
+                    convertedSurList = convertedSurList.filter(x => !!x);
                     // Remove undefined, and duplications
-                    const fistSurf = convertedSurList[0];
-                    convertedSurList = convertedSurList.slice(1).filter(x => !!x).filter(x => x !== fistSurf);
+                    const fistSurf = convertedSurList.shift();
+                    if (fistSurf) {
+                        convertedSurList = convertedSurList.filter(x => x !== fistSurf);
+                        convertedSurList.unshift(fistSurf);
+                    }
                 }
 
-                if (!convertedSurList[0]) {
+                if (!convertedSurList.length) {
                     return;
                 }
                 
-                if (materialLookup(convertedSurList[0]) === 'ROOF' || convertedSurList.length === 1) {
+                if (convertedSurList[0] === 'ROOF' || convertedSurList.length === 1) {
                     makeSurfaceMaterial(airport, runMap, runway.ident, materialLookup(runway.surfMat), false, condition);
                 } else {
                     convertedSurList.forEach(mat => {
@@ -152,6 +315,9 @@ function makeSurfaceMaterial(
     isComposite: boolean,
     condition?: string
 ) {
+    if (!sMat) {
+        return;
+    }
     const runwayObjProperties = runMap.objectProperties;
     let mapSurfMat = getRelation(runwayObjProperties, consts.ONTOLOGY.HAS_SURFACE_MATERIAL);
     const smId = consts.ONTOLOGY.INST_SURFACE_MATERIAL + getUuid(runwayId) + getUuid(sMat);
@@ -178,7 +344,10 @@ function makeSurfaceMaterial(
 }
 
 function materialLookup(abbrev: string): string {
-    return materialLookupTable[(abbrev || '').toUpperCase()];
+    if (!materialLookupTable[abbrev.toUpperCase()]) {
+        store.debugLogger(`3, ${abbrev} ~ ${materialLookupTable[abbrev.toUpperCase()]}`);
+    }
+    return materialLookupTable[abbrev.toUpperCase()] || abbrev || '';
 }
 
 function CSV(
