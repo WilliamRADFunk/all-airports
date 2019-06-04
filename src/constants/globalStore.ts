@@ -25,6 +25,7 @@ class GlobalStore {
 	public airlines: EntityListWrapper = {};
 	public countries: EntityListWrapper = {};
 	public elevations: EntityListWrapper = {};
+	public helicopterLandingZones:  EntityListWrapper = {};
 	public locations: EntityListWrapper = {};
 	public municipalities: EntityListWrapper = {};
 	public runways: EntityListWrapper = {};

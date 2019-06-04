@@ -1,6 +1,7 @@
 const MAIN_INSTANCE_PATH = 'http://williamrobertfunk.com/instance/';
 const COUNTRY_ONT_PATH = 'http://williamrobertfunk.com/ontologies/country#';
 const GENERAL_ONT_PATH = 'http://williamrobertfunk.com/ontologies/general#';
+const AIRCRAFT_ONT_PATH = 'http://williamrobertfunk.com/ontologies/aircraft#';
 const AIRPORT_ONT_PATH = 'http://williamrobertfunk.com/ontologies/airport#';
 const MUNICIPALITY_ONT_PATH = 'http://williamrobertfunk.com/ontologies/municipality#';
 const GEO_ONT_PATH = 'http://www.w3.org/2003/01/geo/wgs84_pos#';
@@ -36,6 +37,13 @@ const ONTOLOGY = {
 	DT_LENGTH: GENERAL_ONT_PATH + 'length',
 	DT_MATERIAL: GENERAL_ONT_PATH + 'material',
 	DT_NAME: FOAF_ONT_PATH + 'name',
+	DT_NUM_OF_LAND_SITE_1: AIRCRAFT_ONT_PATH + 'numberOfLandingPointSize1',
+	DT_NUM_OF_LAND_SITE_2: AIRCRAFT_ONT_PATH + 'numberOfLandingPointSize2',
+	DT_NUM_OF_LAND_SITE_3: AIRCRAFT_ONT_PATH + 'numberOfLandingPointSize3',
+	DT_NUM_OF_LAND_SITE_4: AIRCRAFT_ONT_PATH + 'numberOfLandingPointSize4',
+	DT_NUM_OF_LAND_SITE_5: AIRCRAFT_ONT_PATH + 'numberOfLandingPointSize5',
+	DT_NUM_OF_LAND_SITE_6: AIRCRAFT_ONT_PATH + 'numberOfLandingPointSize6',
+	DT_NUM_OF_LAND_SITE_7: AIRCRAFT_ONT_PATH + 'numberOfLandingPointSize7',
 	DT_REGION_ISO_CODE: COUNTRY_ONT_PATH + 'regionCodeISO',
 	DT_RELATIVE_SIZE: AIRPORT_ONT_PATH + 'relativeSize',
 	DT_STATUS: AIRPORT_ONT_PATH + 'status',
@@ -47,6 +55,7 @@ const ONTOLOGY = {
 	HAS_AIRPORT: AIRPORT_ONT_PATH + 'hasAirport',
 	HAS_COUNTRY: COUNTRY_ONT_PATH + 'hasCountry',
 	HAS_ELEVATION: GENERAL_ONT_PATH + 'hasElevation',
+	HAS_HELO_LAND_ZONE: AIRCRAFT_ONT_PATH + 'hasHelicopterLandingZone',
 	HAS_LOCATION: GENERAL_ONT_PATH + 'hasLocation',
 	HAS_MUNICIPALITY: MUNICIPALITY_ONT_PATH + 'hasMunicipality',
 	HAS_RUNWAY: AIRPORT_ONT_PATH + 'hasRunway',
@@ -57,6 +66,7 @@ const ONTOLOGY = {
 	INST_COUNTRY: MAIN_INSTANCE_PATH + 'Country/',
 	INST_ELEVATION: MAIN_INSTANCE_PATH + 'Elevation/',
 	INST_GEO_LOCATION: MAIN_INSTANCE_PATH + 'Location/',
+	INST_HELO_LAND_ZONE: MAIN_INSTANCE_PATH + 'HelicopterLandingZone',
 	INST_MUNICIPALITY: MAIN_INSTANCE_PATH + 'Municipality/',
 	INST_RUNWAY: MAIN_INSTANCE_PATH + 'Runway/',
 	INST_SURFACE_MATERIAL: MAIN_INSTANCE_PATH + 'SurfaceMaterial',
@@ -70,6 +80,7 @@ const ONTOLOGY = {
 	ONT_COUNTRY: COUNTRY_ONT_PATH + 'Country',
 	ONT_ELEVATION: GENERAL_ONT_PATH + 'Elevation',
 	ONT_GEO_LOCATION: GENERAL_ONT_PATH + 'Location',
+	ONT_HELO_LAND_ZONE: AIRCRAFT_ONT_PATH + 'HelicopterLandingZone',
 	ONT_MUNICIPALITY: MUNICIPALITY_ONT_PATH + 'Municipality',
 	ONT_RUNWAY: AIRPORT_ONT_PATH + 'Runway',
 	ONT_SURFACE_MATERIAL: AIRPORT_ONT_PATH + 'SurfaceMaterial'

@@ -1,11 +1,13 @@
 import { getAirportsFromDatahub } from './airports-datahub';
 import { getAirportsFromGeoJson } from './airports-geojson';
-import { getRunwaysFromOurAirports } from './airports-oa-runways';
 import { getAirportsFromNpm } from './airports-npm';
+import { getRunwaysFromOurAirports } from './airports-oa-runways';
+import { getHelicopterLandingZones } from './helicopter-landing-zones';
 
 export const dataScrapers = {
 	getAirportsFromDatahub,
 	getAirportsFromGeoJson,
-	getRunwaysFromOurAirports,
-	getAirportsFromNpm
+	getAirportsFromNpm,
+	getHelicopterLandingZones,
+	getRunwaysFromOurAirports
 };

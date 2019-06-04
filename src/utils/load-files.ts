@@ -12,6 +12,9 @@ export function loadFiles(): void {
     loadFile('airlines', 'airlines');
     loadFile('airports', 'airports');
     loadFile('elevations', 'elevations');
+    loadFile('helicopterLandingZones', 'helicopterLandingZones');
     loadFile('locations', 'locations');
     loadFile('municipalities', 'municipalities');
+    loadFile('runways', 'runways');
+    loadFile('surfaceMaterials', 'surfaceMaterials');
 };

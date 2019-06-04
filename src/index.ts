@@ -12,5 +12,6 @@ import { saveFiles } from './utils/save-files';
     dataScrapers.getAirportsFromNpm();
     dataScrapers.getAirportsFromDatahub();
     await dataScrapers.getRunwaysFromOurAirports();
+    dataScrapers.getHelicopterLandingZones();
     saveFiles();
 })();

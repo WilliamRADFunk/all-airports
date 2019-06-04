@@ -19,7 +19,8 @@ export { saveFiles } from './utils/save-files';
 // Data Scrape Functions
 export { getAirportsFromDatahub } from './scrapers/airports-datahub';
 export { getAirportsFromGeoJson } from './scrapers/airports-geojson';
-export { getRunwaysFromOurAirports } from './scrapers/airports-oa-runways';
 export { getAirportsFromNpm } from './scrapers/airports-npm';
+export { getRunwaysFromOurAirports } from './scrapers/airports-oa-runways';
+export { getHelicopterLandingZones } from './scrapers/helicopter-landing-zones';
 export { createLookupTable } from './utils/country-code-lookup-tables';
 export { getCountries } from './utils/get-countries';

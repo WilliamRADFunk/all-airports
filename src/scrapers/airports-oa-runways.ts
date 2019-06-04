@@ -233,8 +233,8 @@ export async function getRunwaysFromOurAirports(): Promise<void> {
         // If an airport doesn't already exist in the store for this runway,
         // we can't attach the runway to anything.
         if (airport && runway.length && runway.width) {
-            const runwayObjProperties = airport.objectProperties;
-            let runMap = getRelation(runwayObjProperties, consts.ONTOLOGY.HAS_RUNWAY);
+            const airportObjProperties = airport.objectProperties;
+            let runMap = getRelation(airportObjProperties, consts.ONTOLOGY.HAS_RUNWAY);
             const rId = consts.ONTOLOGY.INST_RUNWAY + getUuid(runway.ident);
             if (!runMap) {
                 let objectProp: EntityContainer = {};
@@ -245,7 +245,7 @@ export async function getRunwaysFromOurAirports(): Promise<void> {
                         consts.ONTOLOGY.HAS_RUNWAY,
                         consts.ONTOLOGY.ONT_RUNWAY,
                         rId,
-                        `Runway for ${airport.name || runway.ident}`);
+                        `Runway for ${airport.datatypeProperties[consts.ONTOLOGY.DT_NAME] || runway.ident}`);
                     store.runways[rId] = objectProp[consts.ONTOLOGY.HAS_RUNWAY];
                 }
                 runMap = objectProp[consts.ONTOLOGY.HAS_RUNWAY];
@@ -334,7 +334,7 @@ function makeSurfaceMaterial(
             store.surfaceMaterials[smId] = surfMatObjProp[consts.ONTOLOGY.HAS_SURFACE_MATERIAL];
         }
         mapSurfMat = surfMatObjProp[consts.ONTOLOGY.HAS_SURFACE_MATERIAL];
-        mapSurfMat.objectProperties.push(entityRefMaker(consts.ONTOLOGY.HAS_SURFACE_MATERIAL, surfMatObjProp));
+        runMap.objectProperties.push(entityRefMaker(consts.ONTOLOGY.HAS_SURFACE_MATERIAL, surfMatObjProp));
     }
     if (condition) {
         mapSurfMat.datatypeProperties[consts.ONTOLOGY.DT_CONDITION] = condition;
@@ -344,9 +344,9 @@ function makeSurfaceMaterial(
 }
 
 function materialLookup(abbrev: string): string {
-    if (!materialLookupTable[abbrev.toUpperCase()]) {
-        store.debugLogger(`3, ${abbrev} ~ ${materialLookupTable[abbrev.toUpperCase()]}`);
-    }
+    // if (!materialLookupTable[abbrev.toUpperCase()]) {
+    //     store.debugLogger(`3, ${abbrev} ~ ${materialLookupTable[abbrev.toUpperCase()]}`);
+    // }
     return materialLookupTable[abbrev.toUpperCase()] || abbrev || '';
 }
 
