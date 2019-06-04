@@ -66,10 +66,10 @@ const ONTOLOGY = {
 	INST_COUNTRY: MAIN_INSTANCE_PATH + 'Country/',
 	INST_ELEVATION: MAIN_INSTANCE_PATH + 'Elevation/',
 	INST_GEO_LOCATION: MAIN_INSTANCE_PATH + 'Location/',
-	INST_HELO_LAND_ZONE: MAIN_INSTANCE_PATH + 'HelicopterLandingZone',
+	INST_HELO_LAND_ZONE: MAIN_INSTANCE_PATH + 'HelicopterLandingZone/',
 	INST_MUNICIPALITY: MAIN_INSTANCE_PATH + 'Municipality/',
 	INST_RUNWAY: MAIN_INSTANCE_PATH + 'Runway/',
-	INST_SURFACE_MATERIAL: MAIN_INSTANCE_PATH + 'SurfaceMaterial',
+	INST_SURFACE_MATERIAL: MAIN_INSTANCE_PATH + 'SurfaceMaterial/',
 	// Base path for all things instance definition
 	MAIN_INSTANCE_PATH,
 	// Base path for all things ontology definition
