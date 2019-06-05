@@ -41,6 +41,7 @@ const materialLookupTable: { [key: string]: string } = {
     'CLAY': 'Clay',
     'COM': 'Composite',
     'COMPACTED EARTH': 'Earth (Compacted)',
+    'COMPACTED SCHIST': 'Schist (Compacted)',
     'CON': 'Concrete',
     'CONC': 'Concrete',
     'CONCRETE': 'Concrete',
@@ -74,6 +75,7 @@ const materialLookupTable: { [key: string]: string } = {
     'GRASSED BLACK SOIL': 'Soil (Grassed Black)',
     'GRASSED BLACKCLAY': 'Clay (Grassed Black)',
     'GRASSED BROWN CLAY': 'Clay (Grassed Brown)',
+    'GRASSED BROWN CLAY GRAVEL': 'Gravel (Grassed Brown Clay)',
     'GRASSED BROWN GRAVEL': 'Gravel (Grassed Brown)',
     'GRASSED BROWN SANDY CLAY': 'Clay (Grassed Brown Sandy)',
     'GRASSED BROWN SILT CLAY': 'Clay (Grassed Brown Silt)',
@@ -89,6 +91,7 @@ const materialLookupTable: { [key: string]: string } = {
     'GRASSED GREY SILT SAND': 'Sand (Grassed Grey Silt)',
     'GRASSED LIMESTONE GRAVEL': 'Gravel (Grassed Limestone)',
     'GRASSED RED CLAY': 'Clay (Grassed Red)',
+    'GRASSED RED CLAY GRAVEL': 'Gravel (Grassed Red Clay)',
     'GRASSED RED SILT': 'Silt (Grassed Red)',
     'GRASSED RED SILT CLAY': 'Clay (Grassed Red Silt)',
     'GRASSED RED SILT SAND': 'Sand (Grassed Red Silt)',
@@ -98,6 +101,7 @@ const materialLookupTable: { [key: string]: string } = {
     'GRASSED SAND': 'Sand (Grassed)',
     'GRASSED SANDY LOAM': 'Loam (Grassed sandy)',
     'GRASSED SILT CLAY': 'Clay (Grassed Silt)',
+    'GRASSED WHITE CORONAS': 'Grass (White Coronas)',
     'GRASSED WHITE GRAVEL': 'Gravel (Grassed White)',
     'GRASSED WHITE LIME STONE': 'Limestone (Grassed White)',
     'GRASSED YELLOW CLAY': 'Clay (Grassed Yellow)',
@@ -116,6 +120,7 @@ const materialLookupTable: { [key: string]: string } = {
     'GRVL': 'Gravel',
     'GVL': 'Gravel',
     'HARD CLAY': 'Clay (Hard)',
+    'HARD GRAVEL': 'Gravel (Hard)',
     'HARD LOAM': 'Loam (Hard)',
     'HARD MUD': 'Mud (Hard)',
     'HARD SAND': 'Sand (HARD)',
@@ -162,9 +167,11 @@ const materialLookupTable: { [key: string]: string } = {
     'ROOF-TOP': 'Rooftop',
     'ROOF/TOP': 'Rooftop',
     'ROOFTOP': 'Rooftop',
+    'SA': 'Sand',
     'SAN': 'Sand',
     'SAND': 'Sand',
     'SAND GRASS': 'Sand (Grass)',
+    'SANDY GRAVEL': 'Gravel (Sandy)',
     'SANDY SOIL': 'Soil (Sandy)',
     'SHELLS': 'Shells',
     'SLAG': 'Slag',
@@ -179,6 +186,7 @@ const materialLookupTable: { [key: string]: string } = {
     'STEEL': 'Steel',
     'STONE': 'Stone',
     'STONE DUST': 'Stone (Dust)',
+    'TAR': 'Tar',
     'TARMAC': 'Tarmac',
     'TOP': 'Rooftop',
     'TREATED': 'Treated',
@@ -258,25 +266,20 @@ export async function getRunwaysFromOurAirports(): Promise<void> {
             if (runway.surfMat) {
                 runway.surfMat = runway.surfMat.replace(',', ' - ');
                 // Catches edge case where single letters specifiy condition of the runway material.
-                const hyphenList = runway.surfMat.split('-').map(sm => sm.trim());
+                // (-|/| over | with | and |&amp;|&)
+                const hyphenList = runway.surfMat
+                    .split(new RegExp('[-|/|&]| over | with | and |amp;', 'gi'))
+                    .filter(sm => !!sm)
+                    .map(sm => sm.trim())
+                    .filter(sm => !!sm);
                 const lastDescriptor = hyphenList[hyphenList.length - 1];
                 const hasCondition = (lastDescriptor && lastDescriptor.length === 1) || null;
                 let condition = '';
                 if (hasCondition) {
                     condition = conditionLookupTable[lastDescriptor];
                 }
-
                 // Ensure synonyms of same material aren't counted as extra
-                let surfaceMaterials: string[] = runway.surfMat.split('/').map(sm => sm.trim());
-                // The longer list is 
-                if (hyphenList.length > 1) {
-                    if (surfaceMaterials.length > 1) {
-                        surfaceMaterials = [];
-                        hyphenList.forEach(item => surfaceMaterials.push(...item.split('/').map(sm => sm.trim())));
-                    } else {
-                        surfaceMaterials = hyphenList;
-                    }
-                }
+                let surfaceMaterials: string[] = hyphenList;
                 let convertedSurList: string[] = []; 
                 if (!hasCondition) {
                     surfaceMaterials.forEach(mat => {
